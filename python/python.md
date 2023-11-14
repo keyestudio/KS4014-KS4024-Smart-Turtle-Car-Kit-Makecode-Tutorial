@@ -1,9 +1,9 @@
-# Python  Tutorial
+# **MicroPython  Tutorial**
 
 ![](media/12389c6ba84efec3a57074623e35662e.jpeg)
 
 
-## Python
+## Getting Started With MicroPython
 
 What is MicroPython?
 
