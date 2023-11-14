@@ -115,7 +115,7 @@ JavaScript also support micro:bit board with the exception of Makecode.
 
 <https://microbit.org/projects/>
 
-### 7.1 Makecode
+ **7.1 Makecode**
 
 Browse <https://makecode.microbit.org/> and enter Makecode online editor.
 
@@ -131,7 +131,7 @@ There are blocks“on start”and“forever”in the code editing area.
 After power on or reset, “on start”means that the code in the block executes
 once while“forever”implies that the code runs cyclically.
 
-### 7.2 Quick Download
+**7.2 Quick Download**
 
 As mentioned before, if your computer is Windows 10 and you have downloaded the
 APP MakeCode for micro:bit to write programs, the program written can be quickly
@@ -179,7 +179,7 @@ After connecting successfully, press buttons and download code to micro:bit.
 
 ![](media/ee0261d79d374fdb18efaff9a4398f3e.png)
 
-### 7.3 How to Import Extension Library on Makecode
+**7.3 How to Import Extension Library on Makecode**
 
 Next, we need to import turtle-bit extension library for further lessons.
 
@@ -231,7 +231,7 @@ extension program.
 
 ![](media/fdf8d6faaecab5f567778edbf7dd582a.png)
 
-### 7.4 Resources and Code
+**7.4 Resources and Code**
 
 Download resources and code of tool package: <https://fs.keyestudio.com/KS4014>
 .
@@ -239,7 +239,7 @@ Download resources and code of tool package: <https://fs.keyestudio.com/KS4014>
 After the tool package is downloaded and unzipped, a file named KS4014 Micro Bit
 Mini Smart Turtle Car will be generated. It can be placed everywhere.
 
-### 7.5 Import Code
+**7.5 Import Code**
 
 We provide every program with hex file. You could import it directly or program
 in Makecode blocks area, therefore, the extension library must be added.[(How to
@@ -273,7 +273,7 @@ The program is imported successfully after seconds
 
 ![](media/7ba7cb9509e4ce2d5674eea793e28671.png)
 
-### 7.6 Install CoolTerm
+**7.6 Install CoolTerm**
 
 If your computer system is Windows7/8 rather than Windows 10, the device can’t
 be paired in Google Chrome, as a result, the digital/analog signals can’t be
@@ -291,18 +291,18 @@ Download CoolTerm program:
 
 <https://freeware.the-meiers.org/>
 
-1.  After the download, we need to install CoolTerm program file, the Window
+After the download, we need to install CoolTerm program file, the Window
     system is taken as an example.
 
-2.  Choose“win”
+Choose“win”
 
-3.  Unzip file and open it. (also suitable for Mac and Linux system)
+Unzip file and open it. (also suitable for Mac and Linux system)
 
 ![](media/97f831d38df9ee01dcfedac244bfe281.png)
 
 ![](media/e77548d01727e523e9e8c900d2fa962d.png)
 
-1.  Double-click ![](media/5f29eed25fc16602cfc0716f047c2da1.png)
+Double-click ![](media/5f29eed25fc16602cfc0716f047c2da1.png)
 
 Note: you have to install the driver of micro:bit and connect micro:bit to
 computer
@@ -334,16 +334,16 @@ matrix of the Micro:bit main board V2)
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
-1.  **Description：**
+**1.Description：**
 
 Prepare a Micro:bit board and USB cable. Next we will conduct a basic experiment
 that a heartbeat pattern flashes on micro:bit board.
 
-1.  **Experimental Preparation：**
+**2.Experimental Preparation：**
 
-2.  Connect micro:bit to computer with USB cable
+Connect micro:bit to computer with USB cable
 
-3.  Open online Makecode editor
+Open online Makecode editor
 
 **Import Hex profile** [**(How to import?)** ](##_7.6.导入代码)
 
@@ -351,7 +351,7 @@ that a heartbeat pattern flashes on micro:bit board.
 
 ![](media/b14ace883d757d0dffb2adae9a035aaa.png)
 
-1.  **Test Code：**
+**3.Test Code：**
 
 | Type     | Route                                          | File Name               |
 |----------|------------------------------------------------|-------------------------|
@@ -359,7 +359,7 @@ that a heartbeat pattern flashes on micro:bit board.
 
 Or you could edit code step by step in the editing area.
 
-1.  Go to“Basic”→“show icon”.
+Go to“Basic”→“show icon”.
 
 Copy it again and place into“forever”block.
 
@@ -391,7 +391,7 @@ If download unsuccessfully, disconnect micro:bit and reboot it
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
-1.  **Description：**
+**1.Description：**
 
 Micro:bit motherboard consists of 25 light-emitting diodes, 5 pcs in a group.
 They correspond to x and y axis. Then the 5\*5 matrix is formed. Moreover, every
@@ -403,7 +403,7 @@ LED at the row 1 and column 3, we could set （2，0) and so on.
 
 ![](media/41c834c1592b4ecbec3066082c25f10b.png)
 
-1.  **Experimental Preparation：**
+**2.Experimental Preparation：**
 
 (1) Connect micro:bit to computer with USB cable.
 
@@ -423,7 +423,7 @@ Import hex file:
 
 Or you could edit code step by step in the editing area.
 
-1.  A. Click“Led”→“more”→“led enable false”
+A. Click“Led”→“more”→“led enable false”
 
 B. Put it into the“on start”block, and click the drop-down triangle button to
 select“true”.![](media/976aaaf61e578c48e2f00f6d2a3fccc0.png)
@@ -447,24 +447,24 @@ place it into“forever”block.![](media/6fa24a7c1348d775f70f3c3e65294091.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Enter“Led”→“plot x 0 y 0”
+A. Enter“Led”→“plot x 0 y 0”
 
 B. Keep it beneath block“pause(ms)500”, then set to“plot x 3 y
 4”.![](media/2d573bedbe650cae075dea31bfd509a4.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Replicate“pause (ms) 500”once and keep it below the block“plot x3y4”
+Replicate“pause (ms) 500”once and keep it below the block“plot x3y4”
 
 ![](media/14aa140cf450499f11035dc8313bd83c.png)
 
-1.  
 
-2.  Click“Led”→“unplot x 0 y 0”and set to“unplot x3 y 4”;
 
-3.  Lay down it beneath“pause (ms) 500”block
+Click“Led”→“unplot x 0 y 0”and set to“unplot x3 y 4”;
 
-4.  Copy“pause (ms) 500”block once, and keep it below the“unplot x3 y
+Lay down it beneath“pause (ms) 500”block
+
+Copy“pause (ms) 500”block once, and keep it below the“unplot x3 y
     4”block.![](media/523b04d16b1e2755b488b05a82c6da71.png)
 
 Complete Program：
@@ -488,7 +488,7 @@ Upload program and plug in micro:bit via USB port, the LED at coordinate point
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
-1.  **Description：**
+**1.Description：**
 
 Dot matrices are very commonplace in daily life. They have found wide
 applications in LED advertisement screens, elevator floor display, bus stop
@@ -503,16 +503,16 @@ characters.
 What’s more, we can also click”show icon“ to choose the pattern we like to
 display. Last but not the least, we can our design patterns by ourselves.
 
-1.  **Experimental Preparation：**
+**2. Experimental Preparation：**
 
-2.  Connect micro:bit to computer with USB cable
+Connect micro:bit to computer with USB cable
 
-3.  Open online Makecode editor
+Open online Makecode editor
 
 **Import Hex profile** [**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step.**
 
-1.  **Test Code：**
+**3. Test Code：**
 
 **Code 1：**
 
@@ -522,16 +522,16 @@ Project”and drag blocks step by step.**
 
 Or you could edit code step by step in the editing area.
 
-1.  A. Enter“Led”→“more”→“led enable false”
+A. Enter“Led”→“more”→“led enable false”
 
-2.  Click the drop-down triangle button to select“true”
+Click the drop-down triangle button to select“true”
     ![](media/976aaaf61e578c48e2f00f6d2a3fccc0.png)
 
-3.  Combine it with“on start”block
+Combine it with“on start”block
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Click“Led”to move“plot x 0 y 0”into“forever”, then replicate“plot x 0 y
+Click“Led”to move“plot x 0 y 0”into“forever”, then replicate“plot x 0 y
     0”for 8 times, respectively set to“x 2”y 0”,“x 2”y 1”,“x 2”y 2”,“x 2”y 3”,“x
     2”y 4”,“x 1”y 3”“x 0”y 2”,“x 3”y 3”,“x 4”y 2”.
 
@@ -554,23 +554,23 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 Or you could edit code step by step in the editing area.
 
-1.  A. Enter“Basic”→“show number 0”block,
+A. Enter“Basic”→“show number 0”block,
 
-2.  Duplicate it for 4 times, then separately set to“show number 1”,“show number
+Duplicate it for 4 times, then separately set to“show number 1”,“show number
     2”,“show number 3”,“show number 4”,“show number 5”.
 
 ![](media/5b8bc5bbc3f5e84aeb19d4dc7d7d2ffd.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Click“Basic”→“show leds”, then put it into“forever”block，tick blue boxes to
+Click“Basic”→“show leds”, then put it into“forever”block，tick blue boxes to
     light LED and generate“↓”pattern.
 
     ![](media/9c1ecc0a6db98f37533c9deec935b717.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Move out the block“show string”from“Basic”block, and leave it beneath
+Move out the block“show string”from“Basic”block, and leave it beneath
     the“show leds”block
 
     ![](media/3f638ac0f3f088a2adefa1ad17cea38a.png)
@@ -582,21 +582,21 @@ string“Hello!”block
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Enter“Basic”→“show arrow North”;
+A. Enter“Basic”→“show arrow North”;
 
 B. Leave it into“forever”block，replicate“show arrow North”for 3
 times，respectively set to“North East”, “South East”, “South West”,“North West”.
 
 ![](media/008c4281fabc99c159c52fcf4ab28bf2.png)
 
-1.  Click“Basic”to get block“clear screen”then remain it below the block “show
+Click“Basic”to get block“clear screen”then remain it below the block “show
     arrow North West”
 
 ![](media/94182fcc1ee9e1998ef16b2925ea082b.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Drag“pause (ms) 100”block from“Basic”block and set to 500ms, then leave it
+Drag“pause (ms) 100”block from“Basic”block and set to 500ms, then leave it
     below“clear screen”block.
 
 ![](media/e782704754471e5db06937017e5022d0.png)
@@ -611,7 +611,7 @@ Click“JavaScript" to check the corresponding JavaScript code:
 
 ![](media/4c537c2e073066441fb23219619ecf09.png)
 
-1.  **Test Results：**
+**4. Test Results：**
 
 Upload code 1 and plug in micro:bit via USB cable , we will see the icon
 ![](media/d4e278da768e447ed344d581e671f57a.png).
@@ -631,7 +631,7 @@ number 1, 2, 3, 4, and 5, then cyclically displays patterns
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
-1.  **Description：**
+**1. Description：**
 
 The button can control the on and off of the circuit. The button is attached to
 the circuit. The circuit is disconnected when the button is not pressed. The
@@ -647,16 +647,16 @@ Micro:bit board has three buttons, the reset button on the back and two
 programmable buttons on the front. By pressing these buttons, the corresponding
 characters will be displayed on dot matrix.
 
-1.  **Experimental Preparation：**
+**2. Experimental Preparation：**
 
-2.  Connect micro:bit to computer with USB cable
+Connect micro:bit to computer with USB cable
 
-3.  Open online Makecode editor
+Open online Makecode editor
 
 **Import Hex profile**[**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step.**
 
-1.  **Test Code：**
+**3. Test Code：**
 
 **Code 1：**
 
@@ -670,18 +670,18 @@ Or you could edit code step by step in the editing area.
 
 You could edit code step by step in the editing area.
 
-1.  A. Click“Basic”→“show string”;
+A. Click“Basic”→“show string”;
 
 B. Then place it into“on button A pressed”block,
 change“Hello!”into“A”.![](media/aebeefcca33e544db91944881f0a9a68.png)
 
-1.  Copy code string![](media/aebeefcca33e544db91944881f0a9a68.png)once, tap the
+Copy code string![](media/aebeefcca33e544db91944881f0a9a68.png)once, tap the
     drop-down button“A”to select“B”and modify
     character“A”into“B”.![](media/6c6bcb6bbeaf8ed55b985e44fc734d61.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Copy![](media/aebeefcca33e544db91944881f0a9a68.png)once，and set to“on
+Copy![](media/aebeefcca33e544db91944881f0a9a68.png)once，and set to“on
     button A+B pressed”and“show string“AB”
 
 ![](media/3e8bde170db9e02e9cee36b3ede184b7.png)
@@ -706,21 +706,21 @@ Or you could edit code step by step in the editing area.
 
 You could edit code step by step in the editing area.
 
-1.  A. Click“Led”→“more”→“led enable false”,
+A. Click“Led”→“more”→“led enable false”,
 
 B. Put it into the block“on start”，click drop-down triangle button to
 select“true” ![](media/976aaaf61e578c48e2f00f6d2a3fccc0.png).
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Tap“Variables”→“Make a Variable...”→“New variable name：”
+A. Tap“Variables”→“Make a Variable...”→“New variable name：”
 
 B. Enter“item”in the dialog box and click“OK”，then variable“item”is produced.
 And move“set item to 0”into“on start”block
 
 ![](media/a4d4a625424427a8f2d628db1f9417ae.png)
 
-1.  A. Click“Input”→“on button A pressed”.
+A. Click“Input”→“on button A pressed”.
 
 B. Go to“Variables”→“ change item by 1 ”
 
@@ -729,13 +729,13 @@ C. Place it into“on button A pressed”and 1 is modified into
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Duplicate![](media/81ec128a3a4bb86fed7d2f78bab20447.png)code string
+Duplicate![](media/81ec128a3a4bb86fed7d2f78bab20447.png)code string
     once，click the drop-down button to select“B”，then set“change item by
     \-5”.![](media/a53f0e6deb299ba15c494547dec19259.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Enter“Led”→“plot bar graph of 0 up to 0”
+A. Enter“Led”→“plot bar graph of 0 up to 0”
 
 B. Keep it into“forever”block
 
@@ -745,7 +745,7 @@ C. Go to“Variables”to move“item”into 0 box，change 0 into 25.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Go to“Logic”to move out “if...true...then...”and “=”blocks，
+A. Go to“Logic”to move out “if...true...then...”and “=”blocks，
 
 B. Keep“=”into“true”box and set to “\>”
 
@@ -777,7 +777,7 @@ Click“JavaScript" to switch into JavaScript code:
 
 ![](media/21704f7ef37d6ed440545c28dbd93211.png)
 
-1.  **Test Results：**
+**4. Test Results：**
 
 Upload code 1 and plug in micro:bit via USB cable, 5×5 LED dot matrix will
 show“A”if button A is pressed, in case that button B is pressed,“B”will appear.
@@ -790,7 +790,7 @@ if button A is pressed, when B pressed, a row of luminous LEDs are deducted.
 
 ### 5：Temperature Measurement
 
-1.  **Description：**
+**1. Description：**
 
 Micro:bit main board doesn’t come with temperature sensor actually, but detect
 temperature through built-in temperature of NFR51822 chip. Thereby, the detected
@@ -800,16 +800,16 @@ temperature is more close to chip’s temperature.
 
 ![](media/24c31bb0174e2ac672203e5c36c6875e.png)
 
-1.  **Experimental Preparation：**
+**2. Experimental Preparation：**
 
-2.  Connect micro:bit to computer with USB cable
+Connect micro:bit to computer with USB cable
 
-3.  Open online Makecode editor.
+Open online Makecode editor.
 
 **Import Hex profile**[**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step**
 
-1.  **Test Code：**
+**3. Test Code：**
 
 **Code 1：**
 
@@ -821,7 +821,7 @@ Micro:bit detects temperature
 
 Or you could edit code step by step in the editing area.
 
-1.  Go to“Advanced” →“Serial” →“serial redirect to USB”
+Go to“Advanced” →“Serial” →“serial redirect to USB”
 
 Place it into “on start”
 
@@ -829,13 +829,13 @@ Place it into “on start”
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Click“Serial”to drag out“serial write value x=0”
+Click“Serial”to drag out“serial write value x=0”
 
 Move it into“forever”block
 
 ![](media/0e709be8f6acc9521f1f76a0fc32c792.png)
 
-1.  Go to“Input” →“temperature(℃)”
+Go to“Input” →“temperature(℃)”
 
 Place it into 0 box
 
@@ -845,7 +845,7 @@ Change x into Temperature
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Move“pause (ms) 100”from“Basic”block and place it under block“serial
+Move“pause (ms) 100”from“Basic”block and place it under block“serial
     write.....temperature(℃)”
 
 ![](media/0c03bc986e186751ac33b92e5052b26f.png)
@@ -903,12 +903,12 @@ Or you could edit code step by step in the editing area.
 
 You could set temperature based on real situation.
 
-1.  Click“Led”→“more”→“led enable false”into“on start”，click drop-down triangle
+Click“Led”→“more”→“led enable false”into“on start”，click drop-down triangle
     button to select“true” ![](media/976aaaf61e578c48e2f00f6d2a3fccc0.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Go to“Logic”→“if..true...then...else”and “=” block;
+A. Go to“Logic”→“if..true...then...else”and “=” block;
 
 B. Move“if..true...then...else” into“forever”block，then place“=”into“true”box.
 
@@ -916,7 +916,7 @@ B. Move“if..true...then...else” into“forever”block，then place“=”in
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Change“=”into“≥”
+A. Change“=”into“≥”
 
 B. Go to“Input”→“temperature(℃)”and move it into left 0 box;
 
@@ -926,7 +926,7 @@ C. Change 0 into 35.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Tap“Basic”→“show icon”，copy it once and lay down them under the“if ...then”
+Tap“Basic”→“show icon”，copy it once and lay down them under the“if ...then”
     and else blocks, then click the drop-down triangle button to
     select“![](media/9fa58029eb504582ee5a915f591ea583.png)”.
     ![](media/fee3bbacccaebb856bbf2cbbe95a82bf.png)
@@ -980,9 +980,9 @@ calibration.
 
 **2. Experimental Preparation：**
 
-1.  Connect micro:bit to computer with USB cable
+Connect micro:bit to computer with USB cable
 
-2.  Open online Makecode editor
+Open online Makecode editor
 
 **Import Hex profile**[**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step**
@@ -999,13 +999,13 @@ Press A on micro:bit, the value of compass is shown.
 
 Or you could edit code step by step in the editing area.
 
-1.  A. Click“Input”→“more”→“calibrate compass”
+A. Click“Input”→“more”→“calibrate compass”
 
 B. Lay down it into block“on start”.
 
 ![](media/f0973c3116eb4faf2d4ca138bd057d45.png)
 
-1.  A. Go to“Input”→“on button A pressed”.
+A. Go to“Input”→“on button A pressed”.
 
 B. Enter“Basic”→“show number”, put it into“on button A pressed”block;
 
@@ -1060,17 +1060,17 @@ this time.
 
 Or you could edit code step by step in the editing area.
 
-1.  
 
-2.  Enter“Input”→ “more”→“calibrate compass”
 
-3.  Move“calibrate compass”into“on start”
+Enter“Input”→ “more”→“calibrate compass”
+
+Move“calibrate compass”into“on start”
 
 ![](media/f0973c3116eb4faf2d4ca138bd057d45.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Click “Variables”→“Make a Variable...”→“New variable name：”
+A. Click “Variables”→“Make a Variable...”→“New variable name：”
 
 B. Input“x”in the blank box and click“OK”, and the variable“x”is generated.
 
@@ -1078,7 +1078,7 @@ C. Drag out“set x to”into“forever”block
 
 ![](media/0ecd067449d3d52ce3ba751632129b54.png)
 
-1.  Go to“Input”→“compass heading(℃)”, and keep it into “0” box
+Go to“Input”→“compass heading(℃)”, and keep it into “0” box
 
 ![](media/a97f7ff675fc62533a9053b6c415652b.png)
 
@@ -1086,7 +1086,7 @@ Tap“Logic”→“if...then...else”, leave it below block“sex x to compass
 heading”，then click![](media/bf972b006ad6d05686352c4785e54994.png)icon for 6
 times.
 
-1.  A. Place“and”into “true” block
+A. Place“and”into “true” block
 
 B. Then move“=”block to the left box of “and”
 
@@ -1098,7 +1098,7 @@ D. Then copy“x≥293”once and leave it to the right“0”box and set to“x
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Go to“Basic”→“show leds”
+A. Go to“Basic”→“show leds”
 
 B. Lay it down beneath ![](media/6dbd99f5a6e4abe8ffd450d19b8a857b.png)block,
 then click“show leds”and the pattern
@@ -1106,7 +1106,7 @@ then click“show leds”and the pattern
 
 ![](media/fe40fd39ae6abce0721d19cf86ef136d.png)
 
-1.  A. Duplicate ![](media/6dbd99f5a6e4abe8ffd450d19b8a857b.png)for 6 times.
+A. Duplicate ![](media/6dbd99f5a6e4abe8ffd450d19b8a857b.png)for 6 times.
 
 B. Separately leave them into the blank boxes behind“else if”.
 
@@ -1137,7 +1137,7 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 ![](media/1d4fdac44bf4e1629145fac97f627c24.png)
 
-1.  **Test Results：**
+**4. Test Results：**
 
 Download code 2 to micro:bit and keep USB cable connected.
 
@@ -1166,9 +1166,9 @@ the accelerometer.
 
 **2. Experimental Preparation：**
 
-1.  Connect micro:bit to computer with USB cable
+Connect micro:bit to computer with USB cable
 
-2.  Open online Makecode editor
+Open online Makecode editor
 
 **Import Hex profile**[**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step**
@@ -1191,7 +1191,7 @@ B. Click“Basic”→“show number”, place it into“on shake”block, then 
 (2) A. Copy code string ![](media/b86b68744e64e4e9907ccb1fa0cb2af7.png)for 7
 times;
 
-1.  separately click the triangle button to select“logo up”,“logo down”,“screen
+separately click the triangle button to select“logo up”,“logo down”,“screen
     up”,“screen down”,“tilt left”,“tilt right”and“free fall”, then respectively
     change 1 into 2, 3, 4, 5, 6, 7, 8.
 
@@ -1221,7 +1221,7 @@ Detect the value of acceleration speed at x, y and z axis
 
 Or you could edit code step by step in the editing area.
 
-1.  A. Go to“Advanced”→“Serial”→“serial redirect to USB”
+A. Go to“Advanced”→“Serial”→“serial redirect to USB”
 
 B. Drag it into“on start”
 
@@ -1229,13 +1229,13 @@ B. Drag it into“on start”
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Enter“Serial”→“serial write value x =0”
+A. Enter“Serial”→“serial write value x =0”
 
 B. Leave it into“forever”block
 
 ![](media/1dcff6f8c61c0c7ac220ded584bcf988.png)
 
-1.  \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*A.
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*A.
     Click“Input”→“acceleration(mg) x”；
 
 B. Keep it into“0”box and capitalize the“x”
@@ -1244,14 +1244,14 @@ B. Keep it into“0”box and capitalize the“x”
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Go to“Basic”and move out“pause (ms) 100”below the
+Go to“Basic”and move out“pause (ms) 100”below the
     block![](media/aa23874d61a27c3af5263746851f6fef.png), then set to 100ms.
 
     ![](media/98c688ae175b0c5eca6bed1d95f7b301.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Replicate code string![](media/c013533f2e3a02f26116f176ba6f975b.png)
+Replicate code string![](media/c013533f2e3a02f26116f176ba6f975b.png)
 
 for 3 times and keep them into“forever”block，separately set the whole code
 string as follows:
@@ -1333,7 +1333,7 @@ damage)
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
-1.  **Description：**
+**1. Description：**
 
 This project will introduce how Micro:bit detects the external light intensity.
 Since Micro:bit doesn’t come with a photosensitive sensor, the detection of
@@ -1341,11 +1341,11 @@ light intensity is completed through the LED matrix. When the light irradiates
 the LED matrix, the voltage change will be produced. Therefore, we could
 determine the light intensity by voltage change.
 
-1.  **Experimental Preparation：**
+**2. Experimental Preparation：**
 
-2.  Connect micro:bit to computer with USB cable
+Connect micro:bit to computer with USB cable
 
-3.  Open online Makecode editor
+Open online Makecode editor
 
 **Import Hex profile** [**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step.**
@@ -1368,7 +1368,7 @@ B. Drag it into“on start”block.![](media/8c0cfdd76322ebf7febafa519e98b76f.pn
 
 B. Move it into“forever”![](media/1dcff6f8c61c0c7ac220ded584bcf988.png)
 
-1.  A. Click“Input”→“acceleration(mg) x”
+A. Click“Input”→“acceleration(mg) x”
 
 B. Put“acceleration(mg) x”in the“0”box and change “x”into“Light intensity”.
 
@@ -1376,7 +1376,7 @@ B. Put“acceleration(mg) x”in the“0”box and change “x”into“Light in
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  A. Click“Basic”→“pause (ms) 100”;
+A. Click“Basic”→“pause (ms) 100”;
 
 B. Lay it down into“forever”and set to 100ms.
 
@@ -1384,7 +1384,7 @@ B. Lay it down into“forever”and set to 100ms.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Complete Program：
+Complete Program：
 
 | ![](media/1ae769b6a1d9f6c6a393351c69b10d32.png)   |
 |---------------------------------------------------|
@@ -1446,7 +1446,7 @@ Project”and drag blocks step by step.**
 
 Or you could edit code step by step in the editing area.
 
-1.  Enter“Basic”module to find “show icon”and drag it into“on start”block;
+Enter“Basic”module to find “show icon”and drag it into“on start”block;
 
 Click the little triangle to find
 “![](media/7f7aa904c35f83b61c7c560ad1e40d2a.png)”
@@ -1693,7 +1693,7 @@ Enter“Variables”module to find and drag“maxSound”into“0” ;
 
 ![](media/eff0b22497be40e1826bccef95ceb0a4.png)
 
-1.  Establish variable“soundLevel”;
+Establish variable“soundLevel”;
 
 Enter“Variables”module to find and drag“set soundLevel to 0”into “else”;
 
@@ -1738,7 +1738,7 @@ code:
 
 ![](media/e4adb50417583440e2620c1bb50528e1.png)
 
-1.  **Test Results 2:**
+**Test Results 2:**
 
 Upload test code to micro:bit main board V2, power the board via the USB cable
 and click Show console Device”as shown below.
@@ -1886,7 +1886,7 @@ from the main board before disconnect the shield from the board.)**
 
 ![](media/74060fac6c085d68066db94d1ada3a99.png)
 
-1.  **Description：**
+**1. Description：**
 
 We can use Micro:bit board to make many interactive works of which the most
 commonly used is acoustic-optic display. The previous lessons are related to
@@ -1931,20 +1931,20 @@ Here is the notation of Ode to Joy.
 
 **2. Experimental Preparation：**
 
-1.  Insert micro:bit board into slot of V2 shield.
+Insert micro:bit board into slot of V2 shield.
 
-2.  Place batteries into battery holder.
+Place batteries into battery holder.
 
-3.  Dial POWER switch to ON end
+Dial POWER switch to ON end
 
-4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
+Connect micro:bit to computer by USB cable and open online Makecode editor.
 
 Import Hex profile [**(How to import?)** ](##_7.6.导入代码) , or click“New
 Project”and drag blocks step by step(add turtle-bit extension library first)
 
 [**(How to add turtle-bit extension?)**](##M11)
 
-1.  **Test Code：**
+**3. Test Code：**
 
 | Type     | Route                                               | File Name                   |
 |----------|-----------------------------------------------------|-----------------------------|
@@ -1952,12 +1952,12 @@ Project”and drag blocks step by step(add turtle-bit extension library first)
 
 Or you could edit code step by step in the editing area.
 
-1.  Click “Led”→”more”→“led enable false”, combine it with“on
+Click “Led”→”more”→“led enable false”, combine it with“on
     start”.![](media/d380f77697920f174fb819fce502f651.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Enter“Music”→“play tone Middle C for 1 beat”， leave it
+Enter“Music”→“play tone Middle C for 1 beat”， leave it
     into“forever”block，then tap “Middle C”, then
     appear![](media/8288263b500e25e1c888301fc51c7b48.png)code.
 
@@ -1967,7 +1967,7 @@ Choose“High E”and set to“1 beat”.
 
 ![](media/8eb86db29abd1058de4547b2835f7051.png)
 
-1.  According to the above music score. Copy“play tone High E for 1 beat”124
+According to the above music score. Copy“play tone High E for 1 beat”124
     times，separately change “High E”of“play tone High E for 1 beat”into“High
     E”,“High F”,“High G”,“High G”,“High F”,“High E”,“High D”,“High C”,“High
     C”,“High D”,“High E”,“High E”,“High D”,“High D”,“High E”,“High E”,“High
@@ -2026,7 +2026,7 @@ Joy” is played by passive buzzer
 
 ![](media/671b9bd2f40e6c6509399f93794fbda5.png)
 
-1.  **Description：**
+**1. Description：**
 
 The RGB color mode is a color standard in the industry. It obtains various
 colors by changing the three color channels of red (R), green (G), and blue (B)
@@ -2092,7 +2092,7 @@ RGB lights show seven colors
 
 Or you could edit code step by step in the editing area.
 
-1.  Click“TurtleBit”to drag“LED brightness 0”into“on start”block
+Click“TurtleBit”to drag“LED brightness 0”into“on start”block
 
 The larger the number you set, the brighter the RGB gets
 
@@ -2100,7 +2100,7 @@ Here, we set to 70
 
 ![](media/9676fe53d37c492b3e901bb000eaf01d.png)
 
-1.  Click“TurtleBit”to drag“set RGBled left_side R：0 G：0 B：0”block
+Click“TurtleBit”to drag“set RGBled left_side R：0 G：0 B：0”block
     into“forever”
 
 Set R:255 G:0 B:0
@@ -2152,15 +2152,15 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 Or you could edit code step by step in the editing area.
 
-1.  Go to“TurtleBit”to move block“LED brightness 0”into“on start”
+Go to“TurtleBit”to move block“LED brightness 0”into“on start”
 
 Change 0 into 200
 
 ![](media/fb0b8de118d8df3f4679e4f7a6fe16a9.png)
 
-1.  Go to“Variables” →“Make a Variable...”→“New variable name：” dialog box，
+Go to“Variables” →“Make a Variable...”→“New variable name：” dialog box，
 
-2.  Input“led-r”and click“OK”to produce variable“led-r”，
+Input“led-r”and click“OK”to produce variable“led-r”，
 
 Then set variable“led-g”and“led-b”in same way.
 
@@ -2170,22 +2170,22 @@ Copy“set led-b to 0”block twice and set to led-r, led_g and led_b
 
 ![](media/f90fc89be465de7b8f3bb5b7e2581045.png)
 
-1.  Go to“Loops”to drag block“repeat 4 times do”into“forever”
+Go to“Loops”to drag block“repeat 4 times do”into“forever”
 
 ![](media/0b59ea27321aeb7681aeba8b581d0305.png)
 
-1.  Tap“TurtleBit”to drag block“set RGBled left_side R：0 G：0 B：0”into “repeat
+Tap“TurtleBit”to drag block“set RGBled left_side R：0 G：0 B：0”into “repeat
     4 times do”block.
 
 Copy it once, and change blocks as follows:
 
 ![](media/75f2cb5f1981041a7c9f395f8c8583e6.png)
 
-1.  Move block“pause (ms) 100”from“Basic”and place it into“repeat 4 times do”.
+Move block“pause (ms) 100”from“Basic”and place it into“repeat 4 times do”.
 
 ![](media/73fa01818b5b7d8ef162ae4fa1c76229.png)
 
-1.  Enter“Variables”to move block“change led-b by 1”under block“pause (ms) 100”.
+Enter“Variables”to move block“change led-b by 1”under block“pause (ms) 100”.
 
 Click triangle to change led-b into led-r.
 
@@ -2196,7 +2196,7 @@ Set“repeat 51 times”and“by 5”.
 
 ![](media/a7ffc37f761d486305ff43ad49429997.png)
 
-1.  Copy code string ![](media/a7ffc37f761d486305ff43ad49429997.png)once and
+Copy code string ![](media/a7ffc37f761d486305ff43ad49429997.png)once and
     leave it into“forever”.
 
 To make RGB get darker gradually, we set“led-r by -5”, 51 times in total
@@ -2205,12 +2205,12 @@ So we change 5 into -5.
 
 ![](media/63f48c6226067758b774f499aeba369c.png)
 
-1.  Replicate ![](media/63f48c6226067758b774f499aeba369c.png)once and keep them
+Replicate ![](media/63f48c6226067758b774f499aeba369c.png)once and keep them
     into“forever”block. Set R:0 and G: led-g, as shown below:
 
 ![](media/f3b69e1955bc1d5ead6716de06cf846a.png)
 
-1.  Copy![](media/63f48c6226067758b774f499aeba369c.png)again, and set code
+Copy![](media/63f48c6226067758b774f499aeba369c.png)again, and set code
     string as follows:
 
     ![](media/d029b97ff52089727a04f60a835c2d92.png)
@@ -2277,7 +2277,7 @@ Project”and drag blocks step by step(add turtle-bit extension library first)
 
 Or you could edit code step by step in the editing area.
 
-1.  a. Enter“Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
+a. Enter“Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
     (GRB format)”
 
 b. Place it into“on start”block，
@@ -2289,25 +2289,25 @@ d. Smart car has 4 pcs WS2812 RGB lights, so set to 4 leads
 
 ![](media/253b37d2d45744f944fc3521af50855c.png)
 
-1.  Click“Neopixel”to move block“strip clear”into“on start”block.
+Click“Neopixel”to move block“strip clear”into“on start”block.
 
     ![](media/9287db5ccffb51dd82e5d2a15d2fd2fc.png)
 
-2.  Enter“Neopixel”to move block“strip show color red” into “forever” block
+Enter“Neopixel”to move block“strip show color red” into “forever” block
 
     ![](media/88de3d44c971c2369711430a893d7821.png)
 
-3.  Click“Basic”to move“pause (ms) 100”block into“forever”block
+Click“Basic”to move“pause (ms) 100”block into“forever”block
 
 Then set to 1000ms
 
 ![](media/ba93a1de285dc713513a788b420e3ce6.png)
 
-1.  Copy code string ![](media/e553a68f56eba016892b29528e711907.png)for eight
+Copy code string ![](media/e553a68f56eba016892b29528e711907.png)for eight
     times, and click red to respectively set to orange, yellow, green, blue,
     indigo, violet, purple and white.
 
-1.  Tap the triangle icon to select orange, yellow, green, blue, indigo, violet,
+Tap the triangle icon to select orange, yellow, green, blue, indigo, violet,
     purple and white.
 
 ![](media/156cd64dce0b25f741f7d2f9a08f8e5d.png)
@@ -2328,7 +2328,7 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 |----------|--------------------------------------------------------|---------------------|
 | Hex file | ../Makecode Tutorial/Test Code/8.15：WS2812 RGB/Code-2 | microbit-Code-2.hex |
 
-1.  a. Enter“Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
+a. Enter“Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
     (GRB format)”
 
 b. Place it into“on start”block，
@@ -2340,18 +2340,18 @@ d. Smart car has 4 pcs WS2812 RGB lights, so set to 4 leads
 
 ![](media/1b10418150f245ba56a4208755729094.png)
 
-1.  Click“Loops”to drag“for index from 0 to 4...do”into“forever”block
+Click“Loops”to drag“for index from 0 to 4...do”into“forever”block
 
 Change 4 into 3
 
 ![](media/9c42b551fc532d473414871e64c8a5ee.png)
 
-1.  Click“Neopixel”to move block“strip clear”into block“for index from 0 to
+Click“Neopixel”to move block“strip clear”into block“for index from 0 to
     3...do”
 
 ![](media/aa478b7456e1860d1665cab16014fc13.png)
 
-1.  Tap“Neopixel”→“more”→“strip set pixel color at 0 to red”
+Tap“Neopixel”→“more”→“strip set pixel color at 0 to red”
 
 Place it into“for index from 0 to 3...do”block
 
@@ -2367,7 +2367,7 @@ Click“Variables”to move“index”into 0 box
 
 ![](media/eda2a23160cf34a76c1f4ab73118151d.png)
 
-1.  Replicate code string![](media/b8590766809462fa433eb907d60e8908.png)for
+Replicate code string![](media/b8590766809462fa433eb907d60e8908.png)for
     eight times and place them into“forever”block
 
 Click red to respectively choose orange, yellow, green, blue, indigo, violet,
@@ -2393,7 +2393,7 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 Or you could edit code step by step in the editing area.
 
-1.  a. Enter“Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
+a. Enter“Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
     (GRB format)”
 
 b. Place it into“on start”block，
@@ -2405,7 +2405,7 @@ d. Smart car has 4 pcs WS2812 RGB lights, set to 4 leads
 
 ![](media/1b10418150f245ba56a4208755729094.png)
 
-1.  Click“Variables”→“Make a Variable...”
+Click“Variables”→“Make a Variable...”
 
 Input R to build up variable R
 
@@ -2417,13 +2417,13 @@ Copy“set B to 0”twice and click triangle button to choose G and B
 
 ![](media/0e2475d942586c2733a8fced49c3b26b.png)
 
-1.  Click“Loops”to get block“for index from 0 to 4...do”
+Click“Loops”to get block“for index from 0 to 4...do”
 
 Leave it into “forever”and change 4 into 3
 
 ![](media/00751ac422252c11b90e88d1dd5e5e1b.png)
 
-1.  Move block“set B to 0”into“for index from 0 to 3...do”block,
+Move block“set B to 0”into“for index from 0 to 3...do”block,
 
 Click B to choose R
 
@@ -2433,18 +2433,18 @@ Change 0 into 10, 10 into 255
 
 ![](media/808240f2784ec6bf5cd696813178ad51.png)
 
-1.  Replicate block ![](media/141700e2baf4f6ec06126a7eabdd15c3.png)twice and
+Replicate block ![](media/141700e2baf4f6ec06126a7eabdd15c3.png)twice and
     place them into“for index from 0 to 3...do”block.
 
 Click R to select G and B
 
 ![](media/18c0be6843e83bf51f99c240d0faa45c.png)
 
-1.  Tap“Neopixel”and move“strip clear”into“for index from 0 to 3...do” block.
+Tap“Neopixel”and move“strip clear”into“for index from 0 to 3...do” block.
 
     ![](media/cbc6b59e73365b0038a11a465b775f18.png)
 
-2.  Go to“Neopixel”→“more”→“strip set pixel color at 0 to red”
+Go to“Neopixel”→“more”→“strip set pixel color at 0 to red”
 
 Leave it in the block“for index from 0 to 3...do”block
 
@@ -2456,13 +2456,13 @@ Separately drag R , G and B into 255 box, as shown below:
 
 ![](media/965b62ff435a6c5b35ef77745474b976.png)
 
-1.  Click“Basic”to drag“pause (ms) 100” under block “strip.....B”
+Click“Basic”to drag“pause (ms) 100” under block “strip.....B”
 
 Set to 500ms.
 
 ![](media/ef0a30f6ea2627dbee666c6a7139c404.png)
 
-1.  Click“Neopixel”to move“strip show”block under “pause(as) 500”
+Click“Neopixel”to move“strip show”block under “pause(as) 500”
 
     ![](media/7d0ee3ddfa68a63b292c77709dc20e89.png)
 
@@ -2492,7 +2492,7 @@ one.
 
 ![](media/d2ed0e8b2d7ebe9d169a79ca22fcccf9.png)
 
-1.  **Description：**
+**1. Description：**
 
 Keyestudio micro：bit smart car is equipped with two DC geared motors which are
 added a gearbox based on regular DC motors.
@@ -2546,7 +2546,7 @@ Project”and drag blocks step by step(add turtle-bit extension library first)
 
 Or you could edit code step by step in the editing area.
 
-1.  Click“Led”→“more”→ “led enable fasle”
+Click“Led”→“more”→ “led enable fasle”
 
 Leave it into“on start”
 
@@ -2554,7 +2554,7 @@ Tap“false”to select“true”
 
 ![](media/6590ae2935dd6d4e9cb2b289c3b37084.png)
 
-1.  Click“Basic”to get block“show arrow North”
+Click“Basic”to get block“show arrow North”
 
 Leave it into“forever”block
 
@@ -2562,7 +2562,7 @@ Click North to select South
 
 ![](media/4d1ddbeb0077fc305ecd77739436bcc5.png)
 
-1.  Click “TurtleBit”to drag“car Run_forward speed : 0 %”block
+Click “TurtleBit”to drag“car Run_forward speed : 0 %”block
 
 Place it into“forever”block
 
@@ -2570,44 +2570,44 @@ Change 0 into 100.
 
 ![](media/fb12c5c2df0f403b5d57e854f71c374b.png)
 
-1.  Tap“Basic”to move“pause (ms) 100”block into“forever”block
+Tap“Basic”to move“pause (ms) 100”block into“forever”block
 
 Delay in 100ms
 
 ![](media/e34f2cc3bd63b84366240248fc84616b.png)
 
-1.  Replicate code string![](media/ca02286b36d12d805882c0ee057cff1a.png)once and
+Replicate code string![](media/ca02286b36d12d805882c0ee057cff1a.png)once and
     leave it under “pause (ms) 100”block
 
 Change South into North and Run_forward into Run_back
 
 ![](media/a13eef1798459121ed58d4178c332b9e.png)
 
-1.  Copy“show arrow South”once and keep it under block“pause (ms) 100”.
+Copy“show arrow South”once and keep it under block“pause (ms) 100”.
 
-2.  Change South into East.
+Change South into East.
 
 ![](media/55c7f698b52c163f5b34fd1a03c568e8.png)
 
-1.  Click“TurtleBit”to move“LeftSide motor run Forward speed : 0 %”and copy it
+Click“TurtleBit”to move“LeftSide motor run Forward speed : 0 %”and copy it
     once
 
-2.  Place them under“show arrow East”block
+Place them under“show arrow East”block
 
-3.  And copy“pause (ms) 1000”block once
+And copy“pause (ms) 1000”block once
 
-4.  Set the code string as follows:
+Set the code string as follows:
 
 ![](media/b7c3e25509ea18970aea03cb09e52818.png)
 
-1.  Duplicate code string ![](media/1a02ef2ff4393cab95ac90bc124ea0cd.png)once
+Duplicate code string ![](media/1a02ef2ff4393cab95ac90bc124ea0cd.png)once
     and keep it under“pause (ms) 1000”block
 
 Change East into West, 50 into 100 and 100 into 50
 
 ![](media/896dd0ec877a1df1a049b02ab6aa873c.png)
 
-1.  Copy code string ![](media/ca02286b36d12d805882c0ee057cff1a.png)twice,
+Copy code string ![](media/ca02286b36d12d805882c0ee057cff1a.png)twice,
 
 Place them into“forever”block
 
@@ -2617,13 +2617,13 @@ Tap Run_forward to select Turn_Left and Turn_Right
 
 ![](media/916806895e3b9ddd70244736eaf0fd6a.png)
 
-1.  Tap“Basic”to drag block“show leds”into“forever”
+Tap“Basic”to drag block“show leds”into“forever”
 
 Tick blue boxes to generate“❤”pattern
 
 ![](media/976086e8851de6c1f59260891821494d.png)
 
-1.  Tap“TurtleBit”to drag“car stop”into“forever”block
+Tap“TurtleBit”to drag“car stop”into“forever”block
 
 Copy“pause (ms) 1000”once and leave it under“car stop” block
 
@@ -2647,12 +2647,12 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 Or you could edit code step by step in the editing area.
 
-1.  Click“Led”→“more”→“led enable false”,
+Click“Led”→“more”→“led enable false”,
 
 Put it into block“on start”，click drop-down triangle button to select“true”
 ![](media/976aaaf61e578c48e2f00f6d2a3fccc0.png).
 
-1.  Click“Variables”→“Make a Variable...”
+Click“Variables”→“Make a Variable...”
 
 Input “a” and click“OK”, variable “a” is built
 
@@ -2664,14 +2664,14 @@ Copy“set b to 0”once and leave it under“set a to 0”
 
 ![](media/53415ea0bf2490067f8f70bd77e4c834.png)
 
-1.  Click“Input”to drag out“on button A pressed”
+Click“Input”to drag out“on button A pressed”
 
 Tap“Variables” to move“change b by 1”into“on button A pressed”block, and change
 b into a.
 
 ![](media/39498de4dcb936e8a2b8c797cb20a925.png)
 
-1.  Copy code string![](media/0331033b05df17207cf8687f184a2397.png)once,
+Copy code string![](media/0331033b05df17207cf8687f184a2397.png)once,
     delete“change a by 1”block
 
 Change A into B
@@ -2682,7 +2682,7 @@ Alter 0 into 1
 
 ![](media/91c1545a33f45f0af14ebc9edd2e6a68.png)
 
-1.  Click“Logic” to move“if true then...”into“forever”block
+Click“Logic” to move“if true then...”into“forever”block
 
 Drag“=”block into“true”box
 
@@ -2690,13 +2690,13 @@ Tap“Variables”to move variable“a”to left box of “=”, and change 0 in
 
 ![](media/f7e04a36746c6ad747c9b02214c7dc89.png)
 
-1.  Click“Basic”to drag“show leds”under then block
+Click“Basic”to drag“show leds”under then block
 
     Tick blue box to generate “L”
 
     ![](media/9ead6a84f4e443fd7edbb811fd9979e6.png)
 
-2.  Click“Logic”to get“if true then...”block
+Click“Logic”to get“if true then...”block
 
 Leave it under block “if..then” block
 
@@ -2706,7 +2706,7 @@ Change 0 into 1
 
 ![](media/cac9459815f822f86c09f66199150cc5.png)
 
-1.  Click“Basic”to get block“pause (ms) 100”
+Click“Basic”to get block“pause (ms) 100”
 
 Leave it into “if..then” block
 
@@ -2717,25 +2717,25 @@ Copy“pause (ms) 1000”block and leave it under “car...100%” block.
 
 ![](media/9576664d367111b275d9dd3de0854c42.png)
 
-1.  Copy![](media/2a056c289af63a527909737b33850d9a.png)once and leave it
+Copy![](media/2a056c289af63a527909737b33850d9a.png)once and leave it
     under“pause (ms) 100”block
 
 Change Run_Forward into Turn_Left, 100 into 50 and delay in 600ms
 
 ![](media/59cf38c416120a30bf9e350fa79d6bbe.png)
 
-1.  Duplicate code string![](media/2a056c289af63a527909737b33850d9a.png)once,
+Duplicate code string![](media/2a056c289af63a527909737b33850d9a.png)once,
     keep it under “pause (ms) 600”block
 
     ![](media/0b6e3f3396c513585d62bc4c6316515f.png)
 
-1.  Tap “TurtleBit”to drag“car stop”block under block“pause (ms) 1000”
+Tap “TurtleBit”to drag“car stop”block under block“pause (ms) 1000”
 
 Tap“Variables”to move“set b to 0”block under “car stop” block
 
 ![](media/718bf7f479098e3235bf2a6d2a5b53ad.png)
 
-1.  Click“Logic”to drag“if true then...”into“forever”
+Click“Logic”to drag“if true then...”into“forever”
 
 Move“=”block into“true”box
 
@@ -2743,13 +2743,13 @@ Click“Variables”to move“a”to left box of “=”and change 0 into 20
 
 ![](media/23611d89366f71deaaddac0918a4d995.png)
 
-1.  Click“Basic”to drag“show leds”into the third “if..then” block
+Click“Basic”to drag“show leds”into the third “if..then” block
 
 Tick blue boxes to produce“口”
 
 ![](media/06becb0f5a774bcbea61b11d95ca1504.png)
 
-1.  Go to“Logic”to drag“if true then...”block
+Go to“Logic”to drag“if true then...”block
 
 Keep it under“show leds 口” block
 
@@ -2757,7 +2757,7 @@ Move variable b into left box of “=” block and change 0 into 1
 
 ![](media/b86a5fb5d12a28604a0bc38239414419.png)
 
-1.  Tap“Basic”to drag“pause (ms) 100”and copy it once
+Tap“Basic”to drag“pause (ms) 100”and copy it once
 
 Set to 1000ms
 
@@ -2769,7 +2769,7 @@ Then set the code string as follows:
 
 ![](media/9b93142170e6526d94218c6cb53930ba.png)
 
-1.  Duplicate code string ![](media/2a056c289af63a527909737b33850d9a.png)once
+Duplicate code string ![](media/2a056c289af63a527909737b33850d9a.png)once
 
 Change Run_Forward into Turn_Left, 100 into 50 and 1000 into 600
 
@@ -2777,7 +2777,7 @@ Place it into code sting, as shown below
 
 ![](media/4240283b1bbe2d8babee1eb99206bbd4.png)
 
-1.  Replicate code string ![](media/c4fd84dc1edc3fe2a37e776e6beb9a56.png) twice
+Replicate code string ![](media/c4fd84dc1edc3fe2a37e776e6beb9a56.png) twice
     and keep them in the code string as follows:
 
     ![](media/52a3d36584c9f3b73c5dcf7cd19c5dab.png)
@@ -2787,7 +2787,7 @@ leave it under “ pause(as) 600” block
 
 ![](media/07ee20368dc3e6b7c96ffd2a2e07e57d.png)
 
-1.  Copy“if a=2 then”block once and change 2 into 3
+Copy“if a=2 then”block once and change 2 into 3
 
 Tap “Variables”to move“set b to 0”into “if a=3 then”block
 
@@ -2879,13 +2879,13 @@ Project”and drag blocks step by step(add turtle-bit extension library first)
 
 Or you could edit code step by step in the editing area.
 
-1.  Click“Advanced”→“Serial”→“serial redirect to USB”
+Click“Advanced”→“Serial”→“serial redirect to USB”
 
 Place it into“on start”
 
 ![](media/73b63660eb8f378dea4930f354d04de6.png)
 
-1.  Enter“Advanced”→“Serial”→“serial write value“x”=0”
+Enter“Advanced”→“Serial”→“serial write value“x”=0”
 
 Leave it into“forever”block.
 
@@ -2898,7 +2898,7 @@ and“x”into“digital signal”.
 
 ![](media/fe7822df66e47c1feb6b949d44e5ad95.png)
 
-1.  Go to“Basic”→“pause (ms) 100”
+Go to“Basic”→“pause (ms) 100”
 
 Keep it into“forever”block and set to 200ms.
 
@@ -2942,14 +2942,14 @@ tracking sensor.
 |----------|--------------------------------------------------------------------------------------------------------|----------------------|
 | Hex file | ../Makecode Tutorial/Test Code/8.17: Line Tracking Smart Car/8.17.1:Detect Line Tracking Sensor/Code-2 |  microbit-Code-2.hex |
 
-1.  Click“Led”→“more”→“led enable false”,
+Click“Led”→“more”→“led enable false”,
 
 Put it into block“on start”，click drop-down triangle button to select“true”
 ![](media/4aa8c2a812adecff90a9d4a33d8858a5.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Go to“Variables” →“Make a Variable...”→ “New variable name：” dialog box.
+Go to“Variables” →“Make a Variable...”→ “New variable name：” dialog box.
 
 Enter LL and click“OK”to create variable“LL”.
 
@@ -2958,7 +2958,7 @@ Next to produce variable“RR”in same way.
 Drag block“set RR to 0”into“on start”block and copy it once. Then set code
 string:![](media/b9ece15dd38d0e45c855b56784e849a6.png)
 
-1.  Click“Variables”to drag block“set RR to 0”into block“forever”
+Click“Variables”to drag block“set RR to 0”into block“forever”
 
 Tap RR to select LL
 
@@ -2975,14 +2975,14 @@ and P16, therefore we set to code string as follows:
 
 ![](media/74edd1154946c84d13d1a91db859462d.png)
 
-1.  Click“Logic” to drag“if true then...else”block into“forever”block
+Click“Logic” to drag“if true then...else”block into“forever”block
 
 Tap“![](media/7498c9151101cb7e9756a8b0a5485f90.png)”for six times and
 move“and”block twice and place them into true boxes, as shown below:
 
 ![](media/b77c13729be593a8a648ef50afc3c333.png)
 
-1.  Go to“Logic”to move block“=”into left box of the first and block
+Go to“Logic”to move block“=”into left box of the first and block
 
 Click“Variables”to drag“LL”into left box of “=”block
 
@@ -2991,7 +2991,7 @@ and change 0 into 1, as shown below
 
 ![](media/e5886652fd64054719be00a0cd98a151.png)
 
-1.  Click“Basic”to move block“show leds”under “if....then” block
+Click“Basic”to move block“show leds”under “if....then” block
 
 Copy it twice and respectively leave them under the first and second “else
 if....then” block
@@ -3000,24 +3000,24 @@ Replicate“LL=0 and CC=1 and RR=1”twice and edit code string as follows:
 
 ![](media/8fb55aedeaf202eb06bd90d0761c5828.png)
 
-1.  Duplicate“LL=1 and CC=1 and RR=0”again and leave it into box behind the
+Duplicate“LL=1 and CC=1 and RR=0”again and leave it into box behind the
     third else if block
 
 Set“LL=0 and CC=0 and RR=1”
 
 ![](media/484fd7ed40fc0c7bff2340ed6803bcc2.png)
 
-1.  Click“Basic”to move block“show icon”under the fourth“else if...then” block
+Click“Basic”to move block“show icon”under the fourth“else if...then” block
 
 Click the triangle button to
 select“![](media/2460d7af23daf89d2ee7b245ff86553b.png)”
 
 ![](media/84fe8e148b9d94612cb063090e378057.png)
 
-1.  Copy“LL=0 and CC=0 and RR=1”for three times and block“show icon” for four
+Copy“LL=0 and CC=0 and RR=1”for three times and block“show icon” for four
     times
 
-1.  Edit the code string as follows:
+Edit the code string as follows:
 
 ![](media/a33a4ce643daa75acd0d264223abcb8b.png)
 
@@ -3059,7 +3059,7 @@ decimal system, as shown below:
 
 Or you could edit code step by step in the editing area.
 
-1.  Click“Advanced” →“Serial”→“serial redirect to USB”
+Click“Advanced” →“Serial”→“serial redirect to USB”
 
 Place it into“on start”block.
 
@@ -3089,7 +3089,7 @@ Put it into“forever”，and move variable “val”into 0 box.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Click“Logic”→“if true then...else”
+Click“Logic”→“if true then...else”
 
 Move it into“forever” , tap“![](media/7498c9151101cb7e9756a8b0a5485f90.png)” six
 times and move out “=” block into “true” block.
@@ -3122,39 +3122,39 @@ Tick blue boxes to produce“I”
 
 ![](media/3b6c38382f83c651b17a8689e1909d64.png)
 
-1.  Duplicate block“val=5 ”and place it into the second box behind the second
+Duplicate block“val=5 ”and place it into the second box behind the second
     “else if...then” block, change 5 into 6
 
     ![](media/d7ac03f2a6cd05cc324be619f2f335d5.png)
 
-2.  Duplicate“show leds”once and leave it into box behind the second“else
+Duplicate“show leds”once and leave it into box behind the second“else
     if...then”block
 
 Tick blue box to create“I”
 
 ![](media/72a10c836b6465b57ecd18f9e125a881.png)
 
-1.  Copy“val=6”block once and leave it into box behind the third“else
+Copy“val=6”block once and leave it into box behind the third“else
     if...then”block
 
 Change 6 into 1
 
 ![](media/6f9a0741966608fc10052658440015db.png)
 
-1.  Drag out“show icon”under the third“else if...then”block
+Drag out“show icon”under the third“else if...then”block
 
 Click “❤”to set“![](media/c0ef63598e460f019fbc4d80b011a879.png)”
 
 ![](media/b1600d0d028c392d27f48f558ee7c992.png)
 
-1.  Copy“val=1”once and leave it into box behind the the fourth “else if ..then”
+Copy“val=1”once and leave it into box behind the the fourth “else if ..then”
     block.
 
 Change 1 into 2.
 
 ![](media/c16f8e58dbca31471419d294ff40ce63.png)
 
-1.  Copy block“show icon”for four times and click the triangle button to select
+Copy block“show icon”for four times and click the triangle button to select
     “![](media/994e46bf4b57c873d3ec56043f4a6413.png)”.
 
 Set to val=1, 2, 4 and 7
@@ -3270,13 +3270,13 @@ P15, P16) and controlled by P14, P15 and P16.
 
 **2. Experimental Preparation：**
 
-1.  Insert micro:bit board into slot of V2 shield.
+Insert micro:bit board into slot of V2 shield.
 
-2.  Place batteries into battery holder.
+Place batteries into battery holder.
 
-3.  Dial power switch to ON end
+Dial power switch to ON end
 
-4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
+Connect micro:bit to computer by USB cable and open online Makecode editor.
 
 Warning: the line tracking sensor can't work normally under strong light because
 there is a mountain of invisible light including IR and ultraviolet rays.
@@ -3293,14 +3293,14 @@ there is a mountain of invisible light including IR and ultraviolet rays.
 
 Or you could edit code step by step in the editing area.
 
-1.  Enter“Basic”→“show icon ♥”
+Enter“Basic”→“show icon ♥”
 
 Combine it with“on start” block，and click triangle button to select
 “![](media/b9b97ec13c745120243516b57a2f2fbc.png)”.
 
 ![](media/4e8ed8afa7457e273982b6f884567de7.png)
 
-1.  Click “Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB (GRB
+Click “Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB (GRB
     format)”
 
 Put it into“on start”block，P8 of 4pcs WS2812RGB lights is connected by P8 of
@@ -3310,13 +3310,13 @@ Click the triangle button to set to P8 and set to 4 leads
 
 ![](media/aba9f94670bfd5c79641bf508a25289d.png)
 
-1.  Enter“Neopixel”→“strip clear”
+Enter“Neopixel”→“strip clear”
 
 Place it into“on start”
 
 ![](media/9ddcb4020018c4889cb46ae4933a01a1.png)
 
-1.  Go to“Variables”→“Make a Variable...”→“New variable name：”
+Go to“Variables”→“Make a Variable...”→“New variable name：”
 
 Enter“tracking values”and click“OK”, then variable“tracking values”is set up.
 
@@ -3326,7 +3326,7 @@ Tap turtle-bit to move“Line Tracking”block into 0 box.
 
 ![](media/4fe0740ac0770f2fa3ba8e7db844d1ed.png)
 
-1.  Click“Logic”and drag“if true then...else”under the block“set...tracking”.
+Click“Logic”and drag“if true then...else”under the block“set...tracking”.
 
 Tap“![](media/08875ea2865d2ebad8c6bb016f6b4531.png)”twice, move“or”block into
 true box, then copy “or” block for three times and leave them into right box
@@ -3334,7 +3334,7 @@ of“or”block.
 
 ![](media/a452f079f2511105c5c6d89c79428a29.png)
 
-1.  Tap“Logic”to drag out“=”and leave it at left box of“or”block
+Tap“Logic”to drag out“=”and leave it at left box of“or”block
 
 Click“Variables”to move“tracking values” into right box of“=”block.
 
@@ -3347,7 +3347,7 @@ Change 2 into 3, 5, 6 and 7
 
 ![](media/143e566e7c34dfcb1fd48009c99c5877.png)
 
-1.  Click“TurtleBit” to drag“car Run_forward speed: 0 %”under “if....then” block
+Click“TurtleBit” to drag“car Run_forward speed: 0 %”under “if....then” block
 
 Change 0 into 60
 
@@ -3359,12 +3359,12 @@ Leave“strip show color green”under “car....68%”block
 
 ![](media/78cde8e1cdbb8b9e7f629a1472ee9b2c.png)
 
-1.  Duplicate block“tracking values=2”once and place it into box behind the
+Duplicate block“tracking values=2”once and place it into box behind the
     first“else if”block, change 2 into 4.
 
 ![](media/b0ebb210b2a440b2adc5356976ae0440.png)
 
-1.  Click“TurtleBit”to drag“LeftSide motor run Forward speed: 0 %”
+Click“TurtleBit”to drag“LeftSide motor run Forward speed: 0 %”
 
 Copy it once and leave them under the“else if....then”block
 
@@ -3374,19 +3374,19 @@ Copy“strip show color green”once and change green into blue.
 
 ![](media/2b41a42359ba6f749bc815d6ce7cfbe6.png)
 
-1.  Copy“tracking values=4”once and place it into box behind the second “else
+Copy“tracking values=4”once and place it into box behind the second “else
     if”, change 4 into 1.
 
 ![](media/96bfc538fbd4a0281d071064e71ce35f.png)
 
-1.  Copy ![](media/20f5fd5ad81eab07fd5e658717dee17b.png)once,and place it under
+Copy ![](media/20f5fd5ad81eab07fd5e658717dee17b.png)once,and place it under
     the “second else if..then”block
 
 Set the code string as follows:
 
 ![](media/ca007599d25dd548525dfcde6198dcd9.png)
 
-1.  Click“TurtleBit”to move“car stop”under the else block
+Click“TurtleBit”to move“car stop”under the else block
 
 Copy“strip show color yellow”once and alter yellow into red.
 
@@ -3522,12 +3522,12 @@ difference between trigger signal and echo signal.
 
 ![](media/8ff02741199a0f03d8d814a4b72f27d7.png)
 
-1.  Pull down TRIG then trigger high level signals with least 10us
+Pull down TRIG then trigger high level signals with least 10us
 
-2.  After triggering, the module will automatically send eight 40KHz ultrasonic
+After triggering, the module will automatically send eight 40KHz ultrasonic
     pulses and detect whether there is a signal return.
 
-3.  The propagation speed of sound in the air is about 343m/s, therefore,
+The propagation speed of sound in the air is about 343m/s, therefore,
     distance = speed \* time, because the ultrasonic wave emits and comes back,
     which is 2 times of distance, so it needs to be divided by 2, the distance
     measured by ultrasonic wave = (speed \* time)/2
@@ -3580,7 +3580,7 @@ Project”and drag blocks step by step(add turtle-bit extension library first)
 
 Or you could edit code step by step in the editing area.
 
-1.  Tap“Advanced”→“Serial” →“serial redirect to USB”
+Tap“Advanced”→“Serial” →“serial redirect to USB”
 
 Combine it with“on start”block
 
@@ -3588,7 +3588,7 @@ Combine it with“on start”block
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Go to “Variables”→“Make a Variable...”→“New variable name：” dialog box，
+Go to “Variables”→“Make a Variable...”→“New variable name：” dialog box，
 
 Input i and click“OK”to produce variable“i”，
 
@@ -3600,7 +3600,7 @@ Move“set i to 0”from“Variables”and integrate with“on start”block
 
 ![](media/72b73246674e9108049d86185db97b99.png)
 
-1.  Tap“Advanced”→“Serial” →“serial write value x=0”
+Tap“Advanced”→“Serial” →“serial write value x=0”
 
 Place it under“set i to 0”block
 
@@ -3610,31 +3610,31 @@ Change X into distance
 
 ![](media/a8360b4e02933f4484130d7c283e6bcf.png)
 
-1.  Click“Logic”to drag“if true then”block into“forever”block.
+Click“Logic”to drag“if true then”block into“forever”block.
 
 Move“=”into true box
 
 ![](media/d0e6c291314e7865e9ae347a6b081d4f.png)
 
-1.  Click“TurtleBit”to drag“Ultrasonic”to left box of “=”
+Click“TurtleBit”to drag“Ultrasonic”to left box of “=”
 
 Change “=” into “\<”, 0 into 10.
 
 ![](media/5afdda8a60e793fc38af6957c36097f6.png)
 
-1.  Tap“Loops”to get block“while true do”and place it into forever block
+Tap“Loops”to get block“while true do”and place it into forever block
 
     Click“Logic”to move “=” block into true box
 
 ![](media/6224f4a49dde4ccf2b5e6d22965477fc.png)
 
-1.  Click“Variables”to move variable“i”to left box of “=” block
+Click“Variables”to move variable“i”to left box of “=” block
 
 Change“=” into “\<”and 0 into 1
 
 ![](media/30f667005e551fe3e872536865c9f237.png)
 
-1.  Click“Music”and move“play tone Middle C for 1 beat”block into do block
+Click“Music”and move“play tone Middle C for 1 beat”block into do block
 
 Tap“Basic”to move“pause(ms)100”under “play...beat” block
 
@@ -3699,13 +3699,13 @@ ultrasonic sensor and control the motion of smart car.
 
 **2. Experimental Preparation：**
 
-1.  Insert micro:bit board into slot of V2 shield.
+Insert micro:bit board into slot of V2 shield.
 
-2.  Place batteries into battery holder.
+Place batteries into battery holder.
 
-3.  Dial power switch to ON end
+Dial power switch to ON end
 
-4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
+Connect micro:bit to computer by USB cable and open online Makecode editor.
 
 5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
@@ -3724,7 +3724,7 @@ ultrasonic sensor and control the motion of smart car.
 
 Or you could edit code step by step in the editing area.
 
-1.  Enter“Basic” →“show icon ♥”
+Enter“Basic” →“show icon ♥”
 
 Place it into“on start”and click the triangle button to
 select“![](media/b9b97ec13c745120243516b57a2f2fbc.png)” pattern.
@@ -3733,13 +3733,13 @@ select“![](media/b9b97ec13c745120243516b57a2f2fbc.png)” pattern.
 
 ![](media/def79dade5bfec78105bae425e7dc98f.png)
 
-1.  Click“TurtleBit”to move“LED brightness 0”into“on start”block
+Click“TurtleBit”to move“LED brightness 0”into“on start”block
 
 Change 0 into 200
 
 ![](media/308b9f04f29da45ec8e74b4ee03e6cfe.png)
 
-1.  Tap“Variables”→“Make a Variable...”
+Tap“Variables”→“Make a Variable...”
 
 Put“distance”in the search bar
 
@@ -3749,7 +3749,7 @@ Place it under“LED brightness 2000”block
 
 ![](media/b45bf0e3b9f2f27746d8aa30403ff0ab.png)
 
-1.  Go to“Logic”to move“if true then...else”under “set...ultrasonic”block
+Go to“Logic”to move“if true then...else”under “set...ultrasonic”block
 
 Drag“=”block into true box
 
@@ -3759,7 +3759,7 @@ Change“=”into“＞”, 0 into 15.
 
 ![](media/34986351ab119f015480a07c600319f8.png)
 
-1.  Tap“TurtleBit”to move“car Run_forward speed: 0%”block under “if...then”
+Tap“TurtleBit”to move“car Run_forward speed: 0%”block under “if...then”
     block
 
 Change 0 into 80
@@ -3772,7 +3772,7 @@ Set code string as follows
 
 ![](media/bfb27d411cefe10817b199f7e9766c52.png)
 
-1.  Click“TurtleBit”to drag“LeftSide motor run forward speed: 0%”block into else
+Click“TurtleBit”to drag“LeftSide motor run forward speed: 0%”block into else
     block
 
 Chang“forward”into back,0 into 60
@@ -3798,7 +3798,7 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 ![](media/131915defb2da6ac5eca5476cc025df2.png)
 
-1.  **Test Results：**
+**4. Test Results：**
 
 Download code to micro:bit, dial to ON end, and dial POWER to ON end. When the
 obstacle distance is greater than 15cm, turtle car goes forward and 2 RGB lights
@@ -3822,13 +3822,13 @@ status of car.
 
 **2. Experimental Preparation：**
 
-1.  Insert micro:bit board into slot of V2 shield.
+Insert micro:bit board into slot of V2 shield.
 
-2.  Place batteries into battery holder.
+Place batteries into battery holder.
 
-3.  Dial power switch to ON end
+Dial power switch to ON end
 
-4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
+Connect micro:bit to computer by USB cable and open online Makecode editor.
 
 5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
@@ -3847,7 +3847,7 @@ status of car.
 
 Or you could edit code step by step in the editing area.
 
-1.  Enter“Basic” →“show icon ♥”
+Enter“Basic” →“show icon ♥”
 
 Place it into“on start”and click the triangle button to
 select“![](media/b9b97ec13c745120243516b57a2f2fbc.png)” pattern.
@@ -3856,7 +3856,7 @@ select“![](media/b9b97ec13c745120243516b57a2f2fbc.png)” pattern.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  a. Enter “Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
+a. Enter “Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
     (GRB format)”
 
 b. Place it into“on start”block，
@@ -3912,7 +3912,7 @@ Then we set distance ≤30
 
 ![](media/2c92a98125904b86eea6d695cdaf5b9a.png)
 
-1.  Click“TurtleBit”→“car Run_Forward speed: 0 %”
+Click“TurtleBit”→“car Run_Forward speed: 0 %”
 
 Leave it under“if...30 then”block. Then change 0 into 80.
 
@@ -3922,7 +3922,7 @@ Place it under“car Run_Forward speed: 80 %”block.
 
 ![](media/405da862183ab9a58f755b4f8258a92f.png)
 
-1.  Duplicate code string ![](media/338e7a80c93845b661f4ecc48c843ab8.png)once
+Duplicate code string ![](media/338e7a80c93845b661f4ecc48c843ab8.png)once
     and keep it into“forever”，
 
 Delete block“distance≥10”and“and”block，
@@ -3931,7 +3931,7 @@ Change 30 into 6, Run_Forward into Run_Back , 80 into 60 and red into yellow.
 
 ![](media/6e42a4ac138012d13f28b8b70998a10c.png)
 
-1.  Copy code string ![](media/e8fc03059674bf36f3805875aea8f82b.png)once and
+Copy code string ![](media/e8fc03059674bf36f3805875aea8f82b.png)once and
     place it into“forever”，
 
 Delete block“distance≤6”and“car RunBack speed: 60 %”
@@ -4091,13 +4091,13 @@ pins, signal line, VCC and GND.
 
 **3. Experimental Preparation：**
 
-1.  Insert micro:bit board into slot of V2 shield.
+Insert micro:bit board into slot of V2 shield.
 
-2.  Place batteries into battery holder.
+Place batteries into battery holder.
 
-3.  Dial power switch to ON end
+Dial power switch to ON end
 
-4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
+Connect micro:bit to computer by USB cable and open online Makecode editor.
 
 5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
@@ -4110,13 +4110,13 @@ pins, signal line, VCC and GND.
 |----------|---------------------------------------------------------------------------------------------------|---------------------------------------|
 | Hex file | ../Makecode Tutorial/Test Code/8.19：IR Remote Control Smart Car/8.19.1：Decode IR Remote Control | microbit-Decode IR Remote Control.hex |
 
-1.  Click“Advanced”→“Serial”→“serial redirect to USB”
+Click“Advanced”→“Serial”→“serial redirect to USB”
 
 Place it into“on start”block.
 
 ![](media/73b63660eb8f378dea4930f354d04de6.png)
 
-1.  Enter“IrRemote”→“connect IR receiver at P0”
+Enter“IrRemote”→“connect IR receiver at P0”
 
 Put it into“on start”block
 
@@ -4125,7 +4125,7 @@ select P11.
 
 ![](media/4273f360eb608f653cc59c750887725b.png)
 
-1.  Go to“Variables”→“Make a Variable...”→ “New variable name：” dialog box，
+Go to“Variables”→“Make a Variable...”→ “New variable name：” dialog box，
 
 Enter“val”and click“OK”to create variable“val”
 
@@ -4133,13 +4133,13 @@ Then drag out“set val to 0”block into“forever”block.
 
 ![](media/ca51f70bf8729f83310f70471bf1b64a.png)
 
-1.  Go to“Ir Remote”→“IR button”
+Go to“Ir Remote”→“IR button”
 
 Place it into 0 box
 
 ![](media/85bff59d45d6defe248bd5c82c4b7078.png)
 
-1.  Click“Advanced”→“Serial”→“serial write value“x”=0”
+Click“Advanced”→“Serial”→“serial write value“x”=0”
 
 Put it into“forever”block
 
@@ -4149,7 +4149,7 @@ Enter“Variables”to move block“val”into 0 box behind“=”
 
 ![](media/736e85fd87be88896e185cc61373f69e.png)
 
-1.  Drag out block“pause (ms) 100”from“Basic”and delay in 1000ms
+Drag out block“pause (ms) 100”from“Basic”and delay in 1000ms
 
 Leave it into“forever”block![](media/407dccc26a2a9e0e07d0436591cd99bd.png)
 
@@ -4212,13 +4212,13 @@ signals from IR remote control to IR receiving module of car shield.
 
 **2.Experimental Preparation：**
 
-1.  Insert micro:bit board into slot of V2 shield.
+Insert micro:bit board into slot of V2 shield.
 
-2.  Place batteries into battery holder.
+Place batteries into battery holder.
 
-3.  Dial power switch to ON end
+Dial power switch to ON end
 
-4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
+Connect micro:bit to computer by USB cable and open online Makecode editor.
 
 5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
@@ -4237,7 +4237,7 @@ signals from IR remote control to IR receiving module of car shield.
 
 Or you could edit code step by step in the editing area.
 
-1.  Enter“IrRemote”to get block“connect IR receiver at P0”
+Enter“IrRemote”to get block“connect IR receiver at P0”
 
 Put it into“on start”block
 
@@ -4246,7 +4246,7 @@ select P11.
 
 ![](media/473fb0173e3d81229d3abb867b58dcf1.png)
 
-1.  a. Enter“Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
+a. Enter“Neopixel” →“set strip to Neopixel at pin P0 with 24 leds as RGB
     (GRB format)”
 
 b. Place it into“on start”block，
@@ -4258,7 +4258,7 @@ d. The robot has 4 pcs WS2812 RGB lights, therefore, change 24 into 4.
 
 ![](media/afef37709aaf695d3617f87bc92fd1ff.png)
 
-1.  Go to“Variables”→“Make a Variable...”→“New variable name：”dialog box.
+Go to“Variables”→“Make a Variable...”→“New variable name：”dialog box.
 
 Enter“val”and click“OK”to produce variable“val”
 
@@ -4272,7 +4272,7 @@ Edit the code as follows:
 
 ![](media/bb9a60d846f91b0ec964a04d471325fc.png)
 
-1.  Copy“set val2 to 0”once and move it into“forever”block.
+Copy“set val2 to 0”once and move it into“forever”block.
 
 Click the triangle button to select“val”
 
@@ -4282,7 +4282,7 @@ Go to“IrRemote”to drag block“IR button”into 0 box.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Enter“Logic”→“if true then”and place it into“forever”
+Enter“Logic”→“if true then”and place it into“forever”
 
 Drag block“=”block into“true”box
 
@@ -4292,14 +4292,14 @@ Then click“=”to set“≠”
 
 ![](media/bd0c5a825a3ec489771cd94f66bf4eeb.png)
 
-1.  Duplicate“set val2 to 0”block again and leave it under the block
+Duplicate“set val2 to 0”block again and leave it under the block
     “if...val...then”block.
 
 Then drag out variable“val”into 0 box.
 
 ![](media/c7113c934b0ab15ada6402db27fd2a12.png)
 
-1.  Go to“Logic”to drag block“if. true..then...else”under block“set val2 to
+Go to“Logic”to drag block“if. true..then...else”under block“set val2 to
     val”block.
 
 Then tap“![](media/a7c5c78217692a965e679b2439ab2f3a.png)”four times and
@@ -4309,13 +4309,13 @@ Move“=”block into“true”box.
 
 ![](media/472e74c957d8646cf1d8d0f691f00f24.png)
 
-1.  Go to“Variables”to move block“val2”into left box of“=”
+Go to“Variables”to move block“val2”into left box of“=”
 
 Change 0 into 70.
 
 ![](media/b56abcb30b725bdd5d9d638d6af51dad.png)
 
-1.  Enter“TurtleBit”→“car Run_Forward speed: 0%”
+Enter“TurtleBit”→“car Run_Forward speed: 0%”
 
 Leave it under the second block“if...val2..then”block and change 0 into 90.
 
@@ -4326,13 +4326,13 @@ Change red into green.
 
 ![](media/c1b373da440a670bd9f59d65fc41e249.png)
 
-1.  Replicate code“val2=70”once and leave it into box behind“else if...then”.
+Replicate code“val2=70”once and leave it into box behind“else if...then”.
 
 Change 70 into 68
 
 ![](media/554e9375f1451defc9725a6cba7e998d.png)
 
-1.  Click“TurtleBit” to drag“LeftSide motor run Forward speed: 0%” block under
+Click“TurtleBit” to drag“LeftSide motor run Forward speed: 0%” block under
     the first“else if ....then”block. And alter 0 into 60
 
 Duplicate“LeftSide motor run Forward speed: 60%”once and alter LeftSide into
@@ -4345,14 +4345,14 @@ Change red into blue.
 
 ![](media/d6b1c24d47331832ab0fd0efc47a618e.png)
 
-1.  Replicate“val2=68”block and code string
+Replicate“val2=68”block and code string
     ![](media/bf33c631d141bf6d5fcd6e1645ff8bba.png)
 
 Then edit the code string as follows:
 
 ![](media/c55acc2ae013f805eb4ce43b1dae7327.png)
 
-1.  Copy“val2=67”again and keep it into the third box behind“else
+Copy“val2=67”again and keep it into the third box behind“else
     if....then”block
 
 Change 67 into 21.
@@ -4364,7 +4364,7 @@ Change Run_Forward into RunBack and green into purple
 
 ![](media/83bc2500a2c3db4099456026e0bb49de.png)
 
-1.  Then replicate“val2=21”once and“strip show color purple”block again
+Then replicate“val2=21”once and“strip show color purple”block again
 
 Change 21 into 64 and purple into red
 
@@ -4449,7 +4449,7 @@ prompt box pop up.
 
 Or you could edit code step by step in the editing area.
 
-1.  Enter“Advanced” →“Serial” → “serial redirect to USB”
+Enter“Advanced” →“Serial” → “serial redirect to USB”
 
 Place it into“on start”
 
@@ -4457,7 +4457,7 @@ Place it into“on start”
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Click“Bluetooth”→“on bluetooth connected”
+Click“Bluetooth”→“on bluetooth connected”
 
 Go to“Basic”to move“show icon”block into“on bluetooth connected” block.
 
@@ -4465,7 +4465,7 @@ Go to“Basic”to move“show icon”block into“on bluetooth connected” blo
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Click“Variables”→“Make a Variable...”→“New variable name：”dialog box.
+Click“Variables”→“Make a Variable...”→“New variable name：”dialog box.
 
 Input“connected”and click“OK”to create variable“connected”.
 
@@ -4473,7 +4473,7 @@ Drag“set connected to 0”under block “show icon” and change 0 into 1.
 
 ![](media/bc9514b04f4aae40dc295eeac3fb21ce.png)
 
-1.  Go to“Loops”to move block“while true do...”into“on bluetooth
+Go to“Loops”to move block“while true do...”into“on bluetooth
     connected”block.
 
 Enter“Logic”to drag out “=”block.
@@ -4485,7 +4485,7 @@ into 1.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-1.  Then we generate variable“rec_data”in same way.
+Then we generate variable“rec_data”in same way.
 
 Then drag out“set rec_data to 0”and place it into block“while connected=1
 do...”block.
@@ -4496,7 +4496,7 @@ Keep it into 0 box and click triangle button to select \##.
 
 ![](media/e993122756294214c561f660c3df07ea.png)
 
-1.  Go to“Advanced”→“Serial”→“serial write string”
+Go to“Advanced”→“Serial”→“serial write string”
 
 Move it below“set rec_data...until\##”block
 
@@ -4504,14 +4504,14 @@ And combine variable“rec_data”with“serial write string”block.
 
 ![](media/6effc725f7d85e4a72afbcee102cc478.png)
 
-1.  Click“Advanced” →“Serial” →“serial write line” and edit code string as
+Click“Advanced” →“Serial” →“serial write line” and edit code string as
     follows:
 
 ![](media/5d66f2053f858d7a3f2e0af55bcc0f0f.png)
 
-1.  Click“Bluetooth”to drag out“on bluetooth disconnected”.
+Click“Bluetooth”to drag out“on bluetooth disconnected”.
 
-1.  Go to“Bluetooth”→“on bluetooth disconnected”
+Go to“Bluetooth”→“on bluetooth disconnected”
 
 Copy“show icon”block and keep it into block“on bluetooth disconnected”
 
@@ -4530,7 +4530,7 @@ Click“JavaScript" to view the corresponding JavaScript code:
 
 ![](media/1d6bb93636c2954f3c4bfc413ba53a49.png)
 
-1.  **Test Results：**
+**4. Test Results：**
 
 If you drag blocks step by step, you need to set as follows after finishing test
 code.
@@ -4623,13 +4623,13 @@ In this lesson, we will control the smart car to perform multipurpose function.
 
 **2. Experimental Preparation：**
 
-1.  Insert micro:bit board into slot of V2 shield.
+Insert micro:bit board into slot of V2 shield.
 
-2.  Place batteries into battery holder.
+Place batteries into battery holder.
 
-3.  Dial power switch to ON end
+Dial power switch to ON end
 
-4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
+Connect micro:bit to computer by USB cable and open online Makecode editor.
 
 5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
