@@ -1,350 +1,9 @@
-**KS4014 KS4024 Keyestudio Micro: bit Mini Smart Turtle Car MakeCode**
+#  MakeCode Tutorial
 
 ![](media/12389c6ba84efec3a57074623e35662e.jpeg)
 
-# Description
 
-Micro:bit is significantly applied to STEM education for teenagers, as a small
-microcontroller featuring small in size, easy to carry, and powerful functions.
-At present, innovative technology products, like robots, wearable devices and
-interactive electronic games can be produced by programming and code.
-
-In this kit, we will guide you how to control and generate a Micro:bit turtle
-smart car through programming in Makecode.
-
-[MakeCode](https://makecode.com/) is a framework for creating interactive and
-engaging programming experiences for those new to the world of programming. The
-platform provides the foundation for a tailored coding experience to create and
-run user programs on actual hardware or in a simulated target.
-
-What’s more, we also provide test code and projects so as to make smart car
-display different effects.
-
-Launched by KEYES group, Keyestudio micro:bit smart car integrates obstacle
-avoidance, line tracking and IR and Bluetooth control. It is made up of DC
-geared motors, wheels , sensors and acrylic boards. In addition, it is equipped
-with a passive buzzer with music play function, 4 pcs WS2812RGB LEDs and 2 pcs
-RGB lights.
-
-We believe that your imagination and creativity can be stimulated through
-assemble this smart car by yourself and acquire knowledge about how to code
-through Makecode, a new method to program.
-
-1.  **Kit List**
-
-| **Components**  |                                                         |         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|-----------------|---------------------------------------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **\#**          | **Model**                                               | **QTY** | **Picture**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| 0               | Micro:bit main board **is Not Included** in KS4014 Kit  |         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 0               | Micro:bit main board is **Included** in KS4024 Kit      | 1       | ![](media/f499db4caac65277ceac4615fcfd7919.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 1               | Keyestudio Micro:bit  Driver Shield                     | 1       | ![](media/7fc0b58d7a588766ed80f1c593100de5.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| 2               | Keyestudio Quick Connectors  IR Receiver                | 1       | ![](media/5ea6aa02b44ccc40934a02e4856fb0f9.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| 3               | Keyestudio Quick Connectors Line Tracking Sensor        | 1       | ![](media/635b8724dc3e7a27f940b3953ed4536d.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| 4               | Keyestudio Quick Connectors  Ultrasonic Sensor          | 1       | ![](media/635b8724dc3e7a27f940b3953ed4536d.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| 5               | Micro USB Cable AM/MK5P(micro)                          | 1       | ![](media/81bfee2741c94f7e5cb7f8ec66b83945.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 6               | Keyestudio JMFP-4 17 Key                                | 1       | ![](media/635b8724dc3e7a27f940b3953ed4536d.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                 |                                                         |         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 1               | Keyestudio Baseplate for Smart Small Turtle Robot V2.0  | 1       | ![](media/ff8aa446c62bf66beae68b4659034f13.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 2               | Keyestudio Round Board                                  | 1       | ![](media/ad595a1a1ace2e8d83ebccd1fa3df8f8.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 3               | Keyestudio Acrylic Top Board                            | 1       | ![](media/d8a8d7316dc7294826adbc3667794904.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 4               | Micro:bit Fixed Mount                                   | 1       | ![](media/298ce320ebe331a99e2b58ef4f763bb5.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 5               | Keyestudio Quick Connectors 12FN20 Motor A              | 1       | ![](media/f894af32c9e8461e27fd93b5f3997a1e.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| 6               | Keyestudio Quick Connectors 12FN20 Motor B              | 1       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 7               | N20 Motor White Mount                                   | 2       | ![](media/f9d2390aa4985fc4fbb37a28c75d55af.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| 8               | Car Wheels                                              | 2       | ![](media/a1a1b335a1fcc2c479407bc3b2409598.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 9               | Universal Wheel                                         | 2       | ![](media/f9d2390aa4985fc4fbb37a28c75d55af.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| 10              | Dual head JST-PH2.0MM-5P Dupont Line                    | 1       | ![](media/c022d694a9d8573fb928f071df439806.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| 11              | Dual head JST-PH2.0MM-4P Dupont Line                    | 1       |  ![](media/762aecff4dd73ff77b497d22e9f66469.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 12              | Dual head JST-PH2.0MM-3P Dupont Line                    | 1       |  ![](media/762aecff4dd73ff77b497d22e9f66469.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 13              | Dual head JST-PH2.0MM-2P Dupont Line                    | 2       | ![](media/7432ada8aa7766ad3c961ddacc0ecafb.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 14              | 18650 2-Slot Battery Holder with 15cm Lead              | 1       | ![](media/635b8724dc3e7a27f940b3953ed4536d.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **Nuts/Screws** |                                                         |         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 1               | M2\*12MM Round Head Screws                              | 6       | ![](media/f9d2390aa4985fc4fbb37a28c75d55af.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 2               | M2 Nickel Plated Nuts                                   | 6       | ![](media/635b8724dc3e7a27f940b3953ed4536d.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 3               | M3\*6MM Round  Head Screws                              | 20      | ![](media/f9d2390aa4985fc4fbb37a28c75d55af.jpeg) |
-| 4               | M3\*8MM Round  Head Screws                              | 8       | ![](media/f9d2390aa4985fc4fbb37a28c75d55af.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| 5               | M3\*10MM Flat  Head Screws                              | 4       | ![](media/f9d2390aa4985fc4fbb37a28c75d55af.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 6               | M3 Nickel Plated Nuts                                   | 12      | ![](media/635b8724dc3e7a27f940b3953ed4536d.jpeg)                                                                                                                                                                                                                                                       |
-| 7               | M3\*15+6MM Hex Copper Bush                              | 4       | ![](media/dd7f78325ce357bc26b7560ead646be5.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 8               | Dual-pass M3\*12MM  Hex Copper Bush                     | 4       | ![](media/f9d2390aa4985fc4fbb37a28c75d55af.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| 9               | Dual-pass M3\*40MM Hex Copper Bush                      | 4       | ![](media/f9d2390aa4985fc4fbb37a28c75d55af.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Tools**       |                                                         |         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 1               | 3\*40MM Screwdriver                                     | 1       | ![](media/55d1ee068dbb1eba59fef2f6dbc83edd.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 2               | Map                                                     | 1       | ![](media/bebb62eb40a9629ecee2c0ce77400952.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 3               | Black Ties 3\*100MM                                     | 5       | ![](media/e911e9a65a619626b653f0a7cc939c3f.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 4               | 18650 Battery （not included）                          | 2       | ![](media/e8e5d08442e7fa6889f48a1be007d4e3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-
-# Specifications<https://www.gstatic.cn/supportcn/translate/index><https://policies.google.com/?hl=zh-CN><https://www.google.com/about?hl=zh-CN>
-
--   Connector port input: DC 6V---9V
-
--   Operating voltage of drive board system: 5V
-
--   Standard operating power consumption: about 2.2W
-
--   Maximum power: Maximum output power is 12W
-
--   Motor speed: 100RPM/1min
-
--   Working temperature range: 0-50℃
-
--   Size: 120\*120\*120mm
-
--   Environmental protection attributes: ROHS
-
-Note: working voltage of micro:bit is 3.3V, driver shield integrates 3.3V/5V
-communication conversion circuit.
-
-# 4.Introduction
-
-**4.1 What is Micro:bit?**
-
-Designed by BBC, Micro:bit main board aims to help children aged above 10 years
-old to have a better learning of programming.
-
-It is equipped with loads of components,including a 5\*5 LED dot matrix, 2
-programmable buttons, a compass, a Micro USB interface and a Bluetooth module
-and others. Though it is just the size of a credit card, it boasts multiple
-functions. To name just a few, it can be applied in programming video games,
-making interactions between light and sound, controlling a robot, conducting
-scientific experiments, developing wearable devices and make some cool
-inventions like robots and musical instruments, basically everything imaginable.
-
-This new version, that’s the version 2.0, of Micro:bit main board has a
-touch-sensitive logo and a MEMS microphone. And there is a buzzer built in the
-other side of the board which makes playing all kinds of sound possible without
-any external equipment. The golden fingers and gears added provide a better
-fixing of crocodile clips. Moreover, this board has a sleeping mode to lower the
-power consumption of battery and it can be entered if users long press the Reset
-& Power button on the back of it. More importantly, the CPU capacity of this
-version is much better than that of the V1.5 and the V2 has more RMA.
-
-In final analysis, the V2 Micro:bit main board can allow customers to explore
-more functions so as to make more innovative products.
-
-**4.2 Comparison between V2.0 & V1.5**
-
-![](media/ae1ddaa286548b2e6414a8284f85325d.png)
-
-**Micro:bit main board V2.0**
-
-![](media/9352fb7236d081fdb3f8040624c7e2c6.jpeg)
-
-**Micro:bit main board V1.5**
-
-**More details:**
-
-![](media/9cdd94349b69eaa1c7e810cdf0c5b850.png)
-
-For the Micro: Bit main board V2, pressing the Reset & Power button , it will
-reset the Micro: Bit and rerun the program.If you hold it tight, the red LED
-will slowly get darker.When the power indicator becomes darker, releasing the
-button and your Micro: Bit board will enter sleep mode for power saving .This
-will make your battery more durable. And you could press this button again to
-‘wake up’ your Micro:bit.
-
-For more information,please resort to following links：
-
-<https://tech.microbit.org/hardware/>
-
-https://microbit.org/new-microbit/
-
-https://www.microbit.org/get-started/user-guide/overview/
-
-<https://microbit.org/get-started/user-guide/features-in-depth/>
-
-**4.3 Pinout**
-
-Micro:bit main board V2.0 VS V1.5
-
-![](media/827b32e06f290b4aa4425c60b335d5b2.png)
-
-![](media/b5770e594a2ddcd690e51700a17d5867.png)
-
-Browse the official website for more details:
-
-<https://tech.microbit.org/hardware/edgeconnector/>
-
-<https://microbit.org/guide/hardware/pins/>
-
-**4.4 Notes for the application of Micro:bit main board V2.0**
-
-1.  it is recommended to cover it with a silicone protector to prevent short
-    circuit for it has a lot of sophisticated electronic components.
-
-2.  its IO port is very weak in driving since it can merely handle current less
-    than 300mA. Therefore, do not connect it with devices operating in large
-    current,such as servo MG995 and DC motor or it will get burnt. Furthermore,
-    you must figure out the current requirements of the devices before you use
-    them and it is generally recommended to use the board together with a
-    Micro:bit shield.
-
-3.  It is recommended to power the main board via the USB interface or via the
-    battery of 3V. The IO port of this board is 3V, so it does not support
-    sensors of 5V. If you need to connect sensors of 5 V, a Micro: Bit expansion
-    board is required.
-
-d.When using pins(P3, P4, P6, P7, P10)shared with the LED dot matrix, blocking
-them from the matrix or the LEDs may display randomly and the
-
-data about sensors maybe wrong.
-
-e.The battery port of 3V cannot be connected with battery more than 3.3V or the
-main board will be damaged.
-
-f. Forbid to use it on metal products to avoid short circuit.
-
--   
-
-To put it simple, Micro:bit V2 main board is like a micro computer which has
-made programming at our fingertips and enhanced digital innovation. And about
-programming environment, BBC provides a website: <https://microbit.org/code/,>
-which has a graphical MakeCode program easy for use.
-
-# 5.Install Micro:bit Driver
-
-If you have downloaded micro:bit driver, then no need to download it again.
-
-If it is you first time to use micro:bit main board, then you will have to
-download the driver.
-
-You have to install the driver of micro:bit if it’s your first time to use
-micro:bit.
-
-You could enter the link: https://fs.keyestudio.com/KS4014Driver to download
-driver file ![](media/da36fd2689470da46e95ec9744f70b3b.png).
-
-**6. Keyestudio Micro:bit Mini Smart Turtle Car**
-
-![](media/8560f8949ae35c760c8ce121f9ad3c0f.jpeg)
-
-Connection of Micro:bit and Turtle Smart Car
-
-| Pins of Micro:bit  | Components of Keyestudio  micro:bit Robot Car    |
-|--------------------|--------------------------------------------------|
-| P0                 | Passive Buzzer                                   |
-| P1                 | Trig（T) of ultrasonic sensor                    |
-| P2                 | Echo（E）of ultrasonic sensor                    |
-| P8                 | 4 pcs WS2812RGB                                  |
-| P11                | IR Receiver                                      |
-| P14                | Left TCRT5000 IR tubes of line tracking sensor   |
-| P15                | Middle TCRT5000 IR tubes of line tracking sensor |
-| P16                | Right TCRT5000 IR tubes of line tracking sensor  |
-
-**Power Supply**
-
-This smart car is powered by 2pcs 18650 batteries. And the battery holder is
-chargeable.
-
-Note: battery is not included.
-
-## 6.1. Install Micro:bit Mini Turtle Smart Car
-
-1\. Install baseplate and line tracking sensor
-
-![](media/a11faa62b94dfb51e790afd3f9c27479.jpeg)
-
-Note: we screw out the two self-locking screws first, and install universal
-wheel on V2.0 baseplate with these screws(don’t screw them too tightly)
-
-Make the side printed“Keyes”downward.
-
-![](media/05dd2731252a09239b2e1cbbc44f3663.jpeg)
-
-![](media/0c74cd98a5574e0e38e898a8764d57ce.jpeg)
-
-![](media/29e478e7559123a99ced2d7ab6cdf9cb.jpeg)
-
-1.  Mount Motor and Battery Holder
-
-![](media/fdd7c22aaf9cbd4f79b295aeec7a136a.jpeg)
-
-![](media/457e1bc1c443becde53d4b704677bb41.jpeg)
-
-![](media/701c7949323c1ccf09aa074874a4fe6c.jpeg)
-
-![](media/c9f153f66cde4a7662ac14a21ab845ff.jpeg)
-
-1.  Assemble Car Wheels and Dual-pass Hex Copper Bushes
-
-![](media/69d3a60fbb0cd934ba4efe0bbfb63915.jpeg)
-
-![](media/b70e07e598f85cefb86b56fe26e7153c.jpeg)
-
-![](media/d13998ee7dc79f576ca54c42e618218c.jpeg)
-
-4\. Install Ultrasonic Sensor
-
-![](media/a49e86cd77a74e1eca9bcf92a4dffb3f.jpeg)
-
-![](media/ca9c554e5a99753ed0a7f030c2c1feb5.jpeg)
-
-![](media/635c53ebad988bb31b0ac7c93370b706.jpeg)
-
-1.  Mount the Middle Board and IR Receiver
-
-![](media/24a1f14ac43ec1fcdc1e0ffc85ce0b87.jpeg)
-
-Note: make the side printed“Keyes”upward when installing the middle board.
-
-![](media/3b4325c5e20268eb5f6324a47a6a7a4c.jpeg)
-
-![](media/1998b8b34b00f4dc64025cdffad41e75.jpeg)
-
-![](media/cf194b2e0eb5ddca1a18cb06a653b4fa.jpeg)
-
-![](media/31d744f12b65fe49794d0cb4c423b8b9.jpeg)
-
-![](media/165a997375b65e4337599843afbd308d.jpeg)
-
-1.  Install micro:bit TB6612 Motor Driver Shield
-
-![](media/fc782cf937e9033baf5a603e34045f16.jpeg)
-
-![](media/b7d19aab2cd4e383832383bba39afee9.jpeg)
-
-![](media/358c9ca11c2dfb2ab6440b5554b2c5a3.jpeg)
-
-1.  Install Top Board
-
-![](media/a7de9d0b823e9271da0adfce4c4e7aa9.jpeg)
-
-![](media/f2ea89d0be0c6c092024424736d4f678.jpeg)
-
-![](media/7d7d5fe807aca0e66e5706eab59547df.jpeg)
-
-1.  Install Micro:bit Board
-
-![](media/254492aa2eb5bc6fc57c8618cb511889.jpeg)
-
-![](media/65b8e07a7886da0a34f0866607ed5533.jpeg)
-
-Wiring Up
-
-We need an additional 3P wire to connect IR receiver.
-
-Black line is connected to G（-）, red wire is connected to 5V（+）
-
-|                | Battery Holder | Motor  A(Left) | Motor  B(Right)  | Line Tracking  Sensor |  IR Receiver | Ultrasonic  Module |
-|----------------|----------------|----------------|------------------|-----------------------|--------------|--------------------|
-| Driver  Shield | 7-12V IN (+ -) |  A1            |  B1              |  P16 P15 P14 5V G     |  P11 5V G    |  P2 P1 5V G        |
-
-Wire up ultrasonic sensor, motors, IR receiver, line tracking sensor and battery
-holder
-
-![](media/3de29d02ae6bc65de6ef30acfd6ac868.jpeg)
-
-![](media/718948bfe589fe831feaab674fa89919.jpeg)
-
-![](media/5f8b107e9b85a4aa783143676ef3d635.jpeg)
-![](media/0d01ef1244a319f6a844f3cf72d42778.jpeg)
-
-![](media/fd3d8563a2abf71438578db5cddf92bc.jpeg)
-![](media/d7c424f7c615a8fcc9538e5930097976.jpeg)
-
-![](media/12389c6ba84efec3a57074623e35662e.jpeg)
-
-# 7.Code and Programming
+## How to Code and Programming
 
 We take Windows system as example to show you.
 
@@ -456,7 +115,7 @@ JavaScript also support micro:bit board with the exception of Makecode.
 
 <https://microbit.org/projects/>
 
-## 7.1 Makecode
+### 7.1 Makecode
 
 Browse <https://makecode.microbit.org/> and enter Makecode online editor.
 
@@ -472,7 +131,7 @@ There are blocks“on start”and“forever”in the code editing area.
 After power on or reset, “on start”means that the code in the block executes
 once while“forever”implies that the code runs cyclically.
 
-## 7.2 Quick Download
+### 7.2 Quick Download
 
 As mentioned before, if your computer is Windows 10 and you have downloaded the
 APP MakeCode for micro:bit to write programs, the program written can be quickly
@@ -520,7 +179,7 @@ After connecting successfully, press buttons and download code to micro:bit.
 
 ![](media/ee0261d79d374fdb18efaff9a4398f3e.png)
 
-## 7.3 How to Import Extension Library on Makecode
+### 7.3 How to Import Extension Library on Makecode
 
 Next, we need to import turtle-bit extension library for further lessons.
 
@@ -572,7 +231,7 @@ extension program.
 
 ![](media/fdf8d6faaecab5f567778edbf7dd582a.png)
 
-## 7.4 Resources and Code
+### 7.4 Resources and Code
 
 Download resources and code of tool package: <https://fs.keyestudio.com/KS4014>
 .
@@ -580,11 +239,11 @@ Download resources and code of tool package: <https://fs.keyestudio.com/KS4014>
 After the tool package is downloaded and unzipped, a file named KS4014 Micro Bit
 Mini Smart Turtle Car will be generated. It can be placed everywhere.
 
-## 7.5 Import Code
+### 7.5 Import Code
 
 We provide every program with hex file. You could import it directly or program
 in Makecode blocks area, therefore, the extension library must be added.[(How to
-add extension?)](#M11)
+add extension?)](##M11)
 
 Next, we will take“heartbeat”as example to introduce how to import code
 
@@ -614,7 +273,7 @@ The program is imported successfully after seconds
 
 ![](media/7ba7cb9509e4ce2d5674eea793e28671.png)
 
-## 7.6 Install CoolTerm
+### 7.6 Install CoolTerm
 
 If your computer system is Windows7/8 rather than Windows 10, the device can’t
 be paired in Google Chrome, as a result, the digital/analog signals can’t be
@@ -666,12 +325,12 @@ The functions of each button on the toolbar are listed below:
 | ![](media/36e13c266fd4b9723d9db40fe30cd203.png) | Displays the Terminal Data in Hexadecimal Format  |
 | ![](media/b505c71c3344036730b1d67f0c62a354.png)        | Displays the Help Window                          |
 
-# 8.Projects
+## Projects
 
 (Note: project 1 to 12 will be conducted with the built-in sensors and LED dot
 matrix of the Micro:bit main board V2)
 
-## 8.1：Heartbeat
+### 1：Heartbeat
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
@@ -686,7 +345,7 @@ that a heartbeat pattern flashes on micro:bit board.
 
 3.  Open online Makecode editor
 
-**Import Hex profile** [**(How to import?)** ](#_7.6.导入代码)
+**Import Hex profile** [**(How to import?)** ](##_7.6.导入代码)
 
 **Or click“New Project”and drag blocks step by step**
 
@@ -724,11 +383,11 @@ Download code to micro:bit and keep USB cable connected. The LED dot matrix will
 display ![](media/14472c7e1c80818889bb47bfc709f053.png) and
 ![](media/04fdfc9060943954e7938bb1a741d626.png) ceaselessly
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
 If download unsuccessfully, disconnect micro:bit and reboot it
 
-## 8.2：Light Up A Single LED
+### 2：Light Up A Single LED
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
@@ -750,7 +409,7 @@ LED at the row 1 and column 3, we could set （2，0) and so on.
 
 (2) Open online Makecode editor.
 
-**Import Hex profile** [**(How to import?)** ](#_7.6.导入代码)
+**Import Hex profile** [**(How to import?)** ](##_7.6.导入代码)
 
 **Or click “New Project”and drag blocks step by step**
 
@@ -823,9 +482,9 @@ Click“JavaScript”to switch into corresponding JavaScript code:
 Upload program and plug in micro:bit via USB port, the LED at coordinate point
 (1,0) flashes for 0.5s, then the LED at (3,4）blinks for 0.5s, alternately.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-## 8.3：5 x 5 LED Dot Matrix
+### 3：5 x 5 LED Dot Matrix
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
@@ -850,7 +509,7 @@ display. Last but not the least, we can our design patterns by ourselves.
 
 3.  Open online Makecode editor
 
-**Import Hex profile** [**(How to import?)** ](#_7.6.导入代码)**, or click“New
+**Import Hex profile** [**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step.**
 
 1.  **Test Code：**
@@ -966,9 +625,9 @@ number 1, 2, 3, 4, and 5, then cyclically displays patterns
 ![](media/9e34fdb19d72918bde242994a3c94c1f.png) and
 ![](media/2a45fca9d836ce38674c347c70c81e02.png).
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-## 8.4：Programmable Buttons
+### 4：Programmable Buttons
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
@@ -994,7 +653,7 @@ characters will be displayed on dot matrix.
 
 3.  Open online Makecode editor
 
-**Import Hex profile**[**(How to import?)** ](#_7.6.导入代码)**, or click“New
+**Import Hex profile**[**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step.**
 
 1.  **Test Code：**
@@ -1127,9 +786,9 @@ So will micro:bit show“AB”if you press A and B buttons simultaneously.
 Upload code 2 and plug in board via USB cable. A row of luminous LEDs are added
 if button A is pressed, when B pressed, a row of luminous LEDs are deducted.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-## 8.5：Temperature Measurement
+### 5：Temperature Measurement
 
 1.  **Description：**
 
@@ -1147,7 +806,7 @@ temperature is more close to chip’s temperature.
 
 3.  Open online Makecode editor.
 
-**Import Hex profile**[**(How to import?)** ](#_7.6.导入代码)**, or click“New
+**Import Hex profile**[**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step**
 
 1.  **Test Code：**
@@ -1201,12 +860,12 @@ Click“JavaScript" to view the corresponding JavaScript code:
 
 ![](media/0cb83e9f83fa0fd0344685f38913cb43.png)
 
-( [How to quick download?](#_7.3.快速下载))
+( [How to quick download?](##_7.3.快速下载))
 
 Download code 1 to micro:bit board and keep USB cable connected, then tap button
 ![](media/e0580d7886af95d2a4ea7cd9d40759ff.png):
 
-( [How to quick download?](#_7.3.快速下载))
+( [How to quick download?](##_7.3.快速下载))
 
 ![](media/0d3198e0cb5460c9820bc2f016c0d7c1.png)
 
@@ -1294,9 +953,9 @@ show![](media/4b1765e12b413dc5d562f2a16d32392f.png). When the temperature is
 equivalent to or greater than 35℃, the
 pattern![](media/f2705fbc4886efcfaac96589ca255f66.png) will appear.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-## 8.6：Micro:bit’s Compass
+### 6：Micro:bit’s Compass
 
 ![](media/24c31bb0174e2ac672203e5c36c6875e.png)
 
@@ -1325,7 +984,7 @@ calibration.
 
 2.  Open online Makecode editor
 
-**Import Hex profile**[**(How to import?)** ](#_7.6.导入代码)**, or click“New
+**Import Hex profile**[**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step**
 
 **3. Test Code：**
@@ -1376,7 +1035,7 @@ SCREEN”then enter the calibration interface. The calibration method: rotate th
 micro:bit to make LED dot matrix draw a square (25 LEDs are on), as shown in the
 following figure:
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
 ![](media/acf3b8c0dee027d9e555fc708831f874.jpeg)
 
@@ -1484,9 +1143,9 @@ Download code 2 to micro:bit and keep USB cable connected.
 
 After calibration, tilt Micro:bit board, micro:bit displays the direction signs.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-## 8.7：Accelerometer
+### 7：Accelerometer
 
 ![](media/24c31bb0174e2ac672203e5c36c6875e.png)
 
@@ -1511,7 +1170,7 @@ the accelerometer.
 
 2.  Open online Makecode editor
 
-**Import Hex profile**[**(How to import?)** ](#_7.6.导入代码)**, or click“New
+**Import Hex profile**[**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step**
 
 **3. Test Code：**
@@ -1607,12 +1266,12 @@ Click“JavaScript" to view the corresponding JavaScript code:
 
 ![](media/381a6d80fa940cb21ad6963469eef351.png)
 
-([How to quick download?](#_7.3.快速下载))
+([How to quick download?](##_7.3.快速下载))
 
 Download code 1 to micro:bit board, keep USB cable connected and
 click![](media/e310a9105faecbe6ed8400101a4e852d.png)
 
-([How to quick download?](#_7.3.快速下载))
+([How to quick download?](##_7.3.快速下载))
 
 ![](media/821a64a53c3a9709ff556e71b070f4dd.png)
 
@@ -1641,7 +1300,7 @@ CoolTerm serial monitor displays the acceleration value on x, y and z axis.
 Download code 1 to micro:bit board and keep USB cable connected, shake the
 Micro:bit board then the number 1 appears.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
 Place micro:bit vertically(logo up), then the number 2 is displayed:
 
@@ -1670,7 +1329,7 @@ When it is free fall(accidentally making it fall), number 8 appears on dot
 matrix.（Note：we don’t recommend you to make it free fall, it will make board
 damage)
 
-## 8.8：Detect Light Intensity by Micro:bit
+### 8：Detect Light Intensity by Micro:bit
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
@@ -1688,7 +1347,7 @@ determine the light intensity by voltage change.
 
 3.  Open online Makecode editor
 
-**Import Hex profile** [**(How to import?)** ](#_7.6.导入代码)**, or click“New
+**Import Hex profile** [**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step.**
 
 **3. Test Code：**
@@ -1740,7 +1399,7 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 Download code to micro:bit board don’t plug off USB cable and
 click![](media/e310a9105faecbe6ed8400101a4e852d.png)
 
-([How to quick download?](#_7.3.快速下载))
+([How to quick download?](##_7.3.快速下载))
 
 ![](media/04b472326485cf676cdb4dd61ca6ef1a.png)
 
@@ -1760,7 +1419,7 @@ The light intensity value is shown below:
 
 ![](media/77a6de8ab9b171353693610a09f3a83c.png)
 
-**8.9: Speaker**
+### 9: Speaker
 
 ![](media/ac515b9ae8891dc32f368a29f194a2fb.png)
 
@@ -1776,7 +1435,7 @@ Connect micro:bit to computer with USB cable
 
 Open online Makecode editor
 
-**Import Hex profile** [**(How to import?)** ](#_7.6.导入代码)**, or click“New
+**Import Hex profile** [**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step.**
 
 **3. Test Code：**
@@ -1831,7 +1490,7 @@ After uploading the test code to micro:bit main board V2 and powering the board
 via the USB cable, the speaker utters sound and the LED dot matrix shows the
 logo of music.
 
-**8.10: Touch-sensitive Logo**
+### 10: Touch-sensitive Logo
 
 ![](media/644695850097c5ade080bb4848b4b481.png)
 
@@ -1850,7 +1509,7 @@ Connect micro:bit to computer with USB cable
 
 Open online Makecode editor
 
-**Import Hex profile** [**(How to import?)** ](#_7.6.导入代码)**, or click“New
+**Import Hex profile** [**(How to import?)** ](##_7.6.导入代码)**, or click“New
 Project”and drag blocks step by step.**
 
 **3. Test Code：**
@@ -1937,7 +1596,7 @@ via the USB cable, the LED dot matrix exhibits the heart pattern when the
 touch-sensitive logo is pressed or touched and displays digit when the logo is
 released.
 
-**8.11: Microphone**
+### 11: Microphone
 
 ![](media/7f0741158e734ff8449d5b87d5ba85f4.png)
 
@@ -1956,7 +1615,7 @@ Connect micro:bit to computer with USB cable
 
 Open online Makecode editor
 
-Import Hex profile [(How to import?)](#_7.6.导入代码) , or click“New Project”and
+Import Hex profile [(How to import?)](##_7.6.导入代码) , or click“New Project”and
 drag blocks step by step.
 
 3\. Test Code：
@@ -2096,7 +1755,7 @@ of the biggest volume( please note that the biggest volume can be reset via the
 Reset button on the other side of the board ) while when clapping, the LED dot
 matrix shows the pattern of the sound.
 
-**8.12: Bluetooth Wireless Communication**
+### 12: Bluetooth Wireless Communication
 
 ![](media/55b2424d88ba1ba8a711c49418ca8dc6.png)
 
@@ -2223,7 +1882,7 @@ the USB cable and the external power from the board before fix it with the
 shield of the car; likewise, the USB cable and the external power should be cut
 from the main board before disconnect the shield from the board.)**
 
-## 8.13: Passive Buzzer
+### 13: Passive Buzzer
 
 ![](media/74060fac6c085d68066db94d1ada3a99.png)
 
@@ -2280,10 +1939,10 @@ Here is the notation of Ode to Joy.
 
 4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-Import Hex profile [**(How to import?)** ](#_7.6.导入代码) , or click“New
+Import Hex profile [**(How to import?)** ](##_7.6.导入代码) , or click“New
 Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
 1.  **Test Code：**
 
@@ -2361,9 +2020,9 @@ Click“JavaScript", you will view the corresponding JavaScript code:
 Download code to micro:bit board and dial POWER switch to ON end. The“Ode to
 Joy” is played by passive buzzer
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-## 8.14: RGB Experiments
+### 14: RGB Experiments
 
 ![](media/671b9bd2f40e6c6509399f93794fbda5.png)
 
@@ -2387,10 +2046,10 @@ is 255, it is the brightest white tone .
 
 | Color                                     | RGB value（R,G,B） | Color code | Color    | RGB value（R,G,B） | Color code |
 |-------------------------------------------|--------------------|------------|----------|--------------------|------------|
-| Black                                     | 0,0,0              | \#000000   | Red      | 255,0,0            | \#FF0000   |
-| Green                                     | 0,255,0            | \#00FF00   | Blue     | 0,0,255            | \#0000FF   |
-| indigo                                    | 0,255,255          | \#00FFFF   | Dark red | 255,0,255          | \#FF00FF   |
-| Yellow                                    | 255,255,0          | \#FFFF00   | White    | 255,255,255        | \#FFFFFF   |
+| Black                                     | 0,0,0              | \##000000   | Red      | 255,0,0            | \##FF0000   |
+| Green                                     | 0,255,0            | \##00FF00   | Blue     | 0,0,255            | \##0000FF   |
+| indigo                                    | 0,255,255          | \##00FFFF   | Dark red | 255,0,255          | \##FF00FF   |
+| Yellow                                    | 255,255,0          | \##FFFF00   | White    | 255,255,255        | \##FFFFFF   |
 | ......                                    | .......            | ......     | ......   | ......             | ......     |
 | Adjust the numbers to get gradient colors |                    |            |          |                    |            |
 
@@ -2416,10 +2075,10 @@ display color in gradient way.
 
 (4) Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-Import Hex profile [**(How to import?)** ](#_7.6.导入代码) , or click“New
+Import Hex profile [**(How to import?)** ](##_7.6.导入代码) , or click“New
 Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
 **3. Test Code：**
 
@@ -2572,7 +2231,7 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 **4.Test Results：**
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
 Download code 1 to micro:bit board and dial POWER switch to ON end, 2 RGB lights
 of smart car emit red, green, blue, indigo, dark red, yellow and white color
@@ -2581,9 +2240,9 @@ cyclically.
 Download code 2 to micro:bit board, 2 RGB lights show different color
 cyclically.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-## 8.15: WS2812 RGB
+### 15: WS2812 RGB
 
 ![](media/b6f9010d508b3d2dadb50ae5175bd4ea.png)
 
@@ -2603,10 +2262,10 @@ different colors by P8
 
 (4) Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-Import Hex profile [**(How to import?)** ](#_7.6.导入代码) , or click“New
+Import Hex profile [**(How to import?)** ](##_7.6.导入代码) , or click“New
 Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
 **3. Test Code：**
 
@@ -2827,9 +2486,9 @@ Download code 2 to micro：bit, WS2812RGB LEDs display like flow light.
 Download code 3 to micro：bit, every WS2812RGB light shows random color one by
 one.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-## 8.16: Motor Driving
+### 16: Motor Driving
 
 ![](media/d2ed0e8b2d7ebe9d169a79ca22fcccf9.png)
 
@@ -2872,10 +2531,10 @@ in the code**
 
 (4) Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-Import Hex profile [**(How to import?)** ](#_7.6.导入代码), or click“New
+Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
 Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
 **3. Test Code：**
 
@@ -3165,9 +2824,9 @@ is pressed, then press B, the route of smart car is “L”type.
 “口”will be displayed when the Button A is pressed again, then press B, the
 route of smart car is “口”type.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-## 8.17: Line Tracking Smart Car
+### 17: Line Tracking Smart Car
 
 **8.17.1: Detect Line Tracking Sensor**
 
@@ -3205,10 +2864,10 @@ adjust sensitivity. When D2 and D6 are on, then pull up the universal wheels for
 
 (4) Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-(5) Import Hex profile [**(How to import?)** ](#_7.6.导入代码), or click“New
+(5) Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
 Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
 **3. Test Code：**
 
@@ -3258,7 +2917,7 @@ Click“JavaScript" to view the corresponding JavaScript code:
 Download code 1 to micro:bit board, don’t plug off USB cable and
 click![](media/e310a9105faecbe6ed8400101a4e852d.png)
 
-([How to quick download?](#_7.3.快速下载))
+([How to quick download?](##_7.3.快速下载))
 
 ![](media/830072d6e2029a76637886938d22f900.png)
 
@@ -3541,12 +3200,12 @@ indicator is on when both of them detect black objects or no object is detected.
 
 Both of them detect white objects, micro:bit shows“❤”and indicators are on.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
 Download code 3 to micro:bit, and keep micro：bit connected and
 click![](media/e310a9105faecbe6ed8400101a4e852d.png)
 
-([How to quick download?](#_7.3.快速下载))
+([How to quick download?](##_7.3.快速下载))
 
 ![](media/936cc70790090f6553c90be6e0d3edc2.png)
 
@@ -3826,7 +3485,7 @@ Click“JavaScript"to view the corresponding JavaScript code:
 Download code to micro:bit and dial POWER to ON end, line tacking car goes
 forward along black line and turn on WS2812 RGB lights
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
 Note: turn on the switch at the back of micro:bit car.
 
@@ -3834,9 +3493,9 @@ the width of black line should be larger than the width of line tracking sensor.
 
 Avoid to test smart car under the strong light.
 
-## 8.18: Ultrasonic Follow Smart Car
+### 18: Ultrasonic Follow Smart Car
 
-### 8.18.1: Ultrasonic Ranging
+#### 18.1: Ultrasonic Ranging
 
 **1. Description：**
 
@@ -3859,7 +3518,7 @@ the ultrasonic waves encounter the object and are reflected back, the module
 outputs an echo signal, so it can determine the distance of object from the time
 difference between trigger signal and echo signal.
 
-1.  **Working Principle：**
+**2.Working Principle：**
 
 ![](media/8ff02741199a0f03d8d814a4b72f27d7.png)
 
@@ -3898,7 +3557,7 @@ difference between trigger signal and echo signal.
 -   Output echo signal : output TTL level signal(high), which is proportion to
     range.
 
-1.  **Experimental Preparation：**
+**4.Experimental Preparation：**
 
 Insert micro:bit board into slot of V2 shield.
 
@@ -3908,12 +3567,12 @@ Dial power switch to ON end
 
 Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-Import Hex profile [**(How to import?)** ](#_7.6.导入代码), or click“New
+Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
 Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
-1.  **Test Code：**
+**5.Test Code：**
 
 | Type     | Route                                                                                       | File Name                       |
 |----------|---------------------------------------------------------------------------------------------|---------------------------------|
@@ -4002,12 +3661,12 @@ Click“JavaScript" to view the corresponding JavaScript code:
 
 ![](media/a32f10eae810d19658fca07077b5b8ad.png)
 
-1.  **Test Results：**
+**6.Test Results：**
 
 Download code to micro:bit, keep USB cable connected, dial POWER switch to ON
 end. The distance value will be displayed on monitor.
 
-([How to quick download?](#_7.3.快速下载))
+([How to quick download?](##_7.3.快速下载))
 
 ![](media/2cd74c16ab3623f6752d3f5e59deea2e.png)
 
@@ -4025,7 +3684,7 @@ CoolTerm serial monitor displays the distance value as follows:
 
 ![](media/c88ce484a935653373de5cdf72c727ed.png)
 
-### 8.18.2: Ultrasonic Avoidance Car
+#### 18.2: Ultrasonic Avoidance Car
 
 ![](media/d5679e190f6e37eb349fea6244ba7647.jpeg)
 
@@ -4048,16 +3707,16 @@ ultrasonic sensor and control the motion of smart car.
 
 4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-5.  Import Hex profile [**(How to import?)** ](#_7.6.导入代码), or click“New
+5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
-1.  **Flow Chart**
+**3.Flow Chart**
 
 ![](media/e978e48abc4c3e712e6a22b0a79bb3dd.png)
 
-1.  **Test Code：**
+**4.Test Code：**
 
 | Type     | Route                                                                                             | File Name                             |
 |----------|---------------------------------------------------------------------------------------------------|---------------------------------------|
@@ -4146,9 +3805,9 @@ obstacle distance is greater than 15cm, turtle car goes forward and 2 RGB lights
 show green color; on the contrary, smart car turns left and 2 RGB lights show
 blue color.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-### 8.18.3: Ultrasonic Follow Smart Car
+#### 18.3: Ultrasonic Follow Smart Car
 
 ![](media/53f9661749bafa8a24dbb577f3955dc3.jpeg)
 
@@ -4171,10 +3830,10 @@ status of car.
 
 4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-5.  Import Hex profile [**(How to import?)** ](#_7.6.导入代码), or click“New
+5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
 **3. Flow Chart**
 
@@ -4377,9 +4036,9 @@ could follow the obstacle to move and WS2812 RGB lights show different color
 
 Note: the obstacle only moves in front of smart car, not turning
 
-## 8.19: IR Remote Control Smart Car
+### 19: IR Remote Control Smart Car
 
-### 8.19.1: Decode IR Remote Control
+#### 19.1: Decode IR Remote Control
 
 ![](media/5ea6aa02b44ccc40934a02e4856fb0f9.jpeg)
 
@@ -4440,10 +4099,10 @@ pins, signal line, VCC and GND.
 
 4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-5.  Import Hex profile [**(How to import?)** ](#_7.6.导入代码), or click“New
+5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
 **4. Test Code：**
 
@@ -4521,7 +4180,7 @@ camera.
 Download code to micro: bit board and don’t plug off USB cable
 Click![](media/1f02508d0c79cd976c673a6a5daba648.png)
 
-([How to quick download?](#_7.3.快速下载))
+([How to quick download?](##_7.3.快速下载))
 
 ![](media/e7bf712e0c8bedc4b0423427848fa395.png)
 
@@ -4541,17 +4200,17 @@ The key value is displayed as for your reference:
 
 ![](media/a52aed8032b82cd11c95f34eea8a2a29.jpeg)
 
-### 8.19.2: IR Remote Control
+#### 19.2: IR Remote Control
 
 ![](media/3474b90a0fcfeb9a338642b0b74a6c4c.jpeg)
 
-1.  **Description：**
+**1.Description：**
 
 In this project, we combine IR remote control with car shield to make an IR
 remote smart car. Its principle is to control the motion of car by sending key
 signals from IR remote control to IR receiving module of car shield.
 
-1.  **Experimental Preparation：**
+**2.Experimental Preparation：**
 
 1.  Insert micro:bit board into slot of V2 shield.
 
@@ -4561,16 +4220,16 @@ signals from IR remote control to IR receiving module of car shield.
 
 4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-5.  Import Hex profile [**(How to import?)** ](#_7.6.导入代码), or click“New
+5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
-1.  **Flow Chart**
+**3.Flow Chart**
 
 ![](media/9f003294a623573222be28912d3bcdc3.png)
 
-1.  **Test Code:**
+**4.Test Code:**
 
 | Type     | Route                                                                                      | File Name                       |
 |----------|--------------------------------------------------------------------------------------------|---------------------------------|
@@ -4725,9 +4384,9 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 ![](media/e3cc53e658eb161bac767c6133ffe57a.png)
 
-1.  **Test Results：**
+**5.Test Results：**
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
 Download code to micro:bit board, and dial POWER to ON end.
 
@@ -4741,14 +4400,14 @@ left，![](media/41116032870ebaa49d6e78fe2445da36.png)implies rightward turning,
 backward，![](media/a8ef4b174911d528e2dc232c2f862b7d.png) stops car，and 4pcs
 WS2812RGB light up the corresponding color.
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
 Note: the distance between IR remote control and IR receiving head of smart car
 are supposed less than 5m, during the test.
 
-## 8.20: Bluetooth Multi-purpose Smart Car
+### 20: Bluetooth Multi-purpose Smart Car
 
-### 8.20.1: Read Bluetooth Data
+#### 20.1: Read Bluetooth Data
 
 ![](media/55b2424d88ba1ba8a711c49418ca8dc6.png)
 
@@ -4769,10 +4428,10 @@ Let’s know its interface and function of every icon first
 
 (4) Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-(5) Import Hex profile [**(How to import?)** ](#_7.6.导入代码), or click“New
+(5) Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
 Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
 As the Bluetooth and extension radio can’t work together, therefore, their
 extension libraries are not compatible.
@@ -4833,13 +4492,13 @@ do...”block.
 
 Click“Bluetooth”→“more”→“bluetooth uart read until new line( )”
 
-Keep it into 0 box and click triangle button to select \#.
+Keep it into 0 box and click triangle button to select \##.
 
 ![](media/e993122756294214c561f660c3df07ea.png)
 
 1.  Go to“Advanced”→“Serial”→“serial write string”
 
-Move it below“set rec_data...until\#”block
+Move it below“set rec_data...until\##”block
 
 And combine variable“rec_data”with“serial write string”block.
 
@@ -4882,7 +4541,7 @@ Click
 However, you could skip this step if you directly import test code.
 
 After setting, download code to micro:bit board, don’t plug off USB cable([How
-to download?](#A01) [How to quick download?](#_7.3.快速下载))
+to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
 Next to download App.
 
@@ -4954,7 +4613,7 @@ Through the test, we get the function of every icon, as shown below:
 
 ![](media/5b942e52b28749e7d4ac904627442500.png)
 
-### 8.20.2: Multi-purpose Smart Car
+#### 20.2: Multi-purpose Smart Car
 
 ![](media/eaa852aacab745232fd78350910cd74c.jpeg)
 
@@ -4972,10 +4631,10 @@ In this lesson, we will control the smart car to perform multipurpose function.
 
 4.  Connect micro:bit to computer by USB cable and open online Makecode editor.
 
-5.  Import Hex profile [**(How to import?)** ](#_7.6.导入代码), or click“New
+5.  Import Hex profile [**(How to import?)** ](##_7.6.导入代码), or click“New
     Project”and drag blocks step by step(add turtle-bit extension library first)
 
-[**(How to add turtle-bit extension?)**](#M11)
+[**(How to add turtle-bit extension?)**](##M11)
 
 As the Bluetooth and extension radio can’t work together, therefore, their
 extension libraries are not compatible.
@@ -5024,12 +4683,5 @@ Pairing....”(you could skip this step if you import test code directly)
 Download code and turn on the switch at the back of micro:bit car. Then control
 smart car via “keyes Bit Car”app
 
-([How to download?](#A01) [How to quick download?](#_7.3.快速下载))
+([How to download?](##A01) [How to quick download?](##_7.3.快速下载))
 
-# 9. Resources
-
-[https://fs.keyestudio.com/KS4](https://fs.keyestudio.com/KS0426)014
-
-Wiki page: <https://wiki.keyestudio.com/Main_Page>
-
-Official website: <https://keyestudio.com/>
